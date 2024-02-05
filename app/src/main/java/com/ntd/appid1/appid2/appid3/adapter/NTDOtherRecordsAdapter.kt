@@ -23,8 +23,7 @@ class NTDOtherRecordsAdapter (
             } else {
                 binding.textRecordName.text = item.fileName
             }
-            binding.textDateTime.text = convertLongToFormattedDateTime(item.createdAt)
-            binding.textTime.text = convertLongToFormattedTime(item.durationTime)
+            binding.textDateTime.text = convertLongToFormattedDateTime(item.createdAt) + " | " + convertLongToFormattedTime(item.durationTime)
             binding.layoutContainer.setOnClickListener { clickItem.more(index, binding) }
         }
 

@@ -100,7 +100,6 @@ class NTDViewDrumeActivity : NTDOtherBaseActivityAppntd<ActivityDrumeBinding>(),
             whenBackPress()
             dialogSaveRecord.binding.tvClose.setOnClickListener {
                 if (isRecording) {
-                    NTDViewMainActivity.showInterAds = true
                     finish()
                 }
                 dialogSaveRecord.binding.edtNameRecord.text.clear()
@@ -179,24 +178,5 @@ class NTDViewDrumeActivity : NTDOtherBaseActivityAppntd<ActivityDrumeBinding>(),
             0 -> changeStyle(drum1Fragment)
             1 -> changeStyle(drum2Fragment)
         }
-    }
-
-    override fun onBackPressed() {
-        var count = NTDHelperSharePrefUtils.getInt(NTDHelperSharePrefUtils.IS_BACK_FROM_INSTRUMENT,0)
-        if (!NTDHelperSharePrefUtils.getBoolean(NTDHelperSharePrefUtils.IS_RATED, false)) {
-            count++
-            NTDHelperSharePrefUtils.setInt(NTDHelperSharePrefUtils.IS_BACK_FROM_INSTRUMENT, count)
-            if (count % 2 == 0) {
-                NTDViewMainActivity.showRateFromInstrument = true
-                finish()
-            } else {
-                NTDViewMainActivity.showInterAds = true
-                finish()
-            }
-        } else {
-            NTDViewMainActivity.showInterAds = true
-            finish()
-        }
-        super.onBackPressed()
     }
 }

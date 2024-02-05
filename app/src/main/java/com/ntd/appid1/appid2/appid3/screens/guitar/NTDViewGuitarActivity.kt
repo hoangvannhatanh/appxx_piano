@@ -689,21 +689,7 @@ class NTDViewGuitarActivity : NTDOtherBaseActivityAppntd<ActivityGuitarBinding>(
             mediaRecorder.stop()
             stopRecord()
         } else {
-            var count = NTDHelperSharePrefUtils.getInt(NTDHelperSharePrefUtils.IS_BACK_FROM_INSTRUMENT,0)
-            if (!NTDHelperSharePrefUtils.getBoolean(NTDHelperSharePrefUtils.IS_RATED, false)) {
-                count++
-                NTDHelperSharePrefUtils.setInt(NTDHelperSharePrefUtils.IS_BACK_FROM_INSTRUMENT, count)
-                if (count % 2 == 0) {
-                    NTDViewMainActivity.showRateFromInstrument = true
-                    finish()
-                } else {
-                    NTDViewMainActivity.showInterAds = true
-                    finish()
-                }
-            } else {
-                NTDViewMainActivity.showInterAds = true
-                finish()
-            }
+            finish()
         }
         dialogSaveRecord.binding.tvClose.setOnClickListener {
             isRecording = false
