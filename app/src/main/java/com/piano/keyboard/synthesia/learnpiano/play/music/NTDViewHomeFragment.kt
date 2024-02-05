@@ -29,6 +29,8 @@ class NTDViewHomeFragment : NTDOtherBaseFragmentAppntd<FragmentHomeBinding>() {
         if (AdsConfig.getAdsConfig().mInterstitialAdPiano == null) {
             AdsConfig.getAdsConfig().loadAdsInterPiano(requireActivity())
         }
+
+        Log.d("iiiiii", "dvsdv")
     }
 
     override fun setViewBinding(
