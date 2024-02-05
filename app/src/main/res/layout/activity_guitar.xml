@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".screens.guitar.NTDViewGuitarActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@drawable/bg_guitar"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/loBanner">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/layoutButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@color/bg_header"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/clTop"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_22sdp"
+                android:layout_marginBottom="@dimen/_8sdp"
+                app:layout_constraintEnd_toEndOf="@+id/rcv"
+                app:layout_constraintStart_toStartOf="@+id/rcv"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <ImageView
+                    android:id="@+id/btnBack"
+                    android:layout_width="@dimen/_59sdp"
+                    android:layout_height="@dimen/_40sdp"
+                    android:src="@drawable/iv_back_guitar"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/btnRecord"
+                    android:layout_width="@dimen/_59sdp"
+                    android:layout_height="@dimen/_40sdp"
+                    android:layout_marginStart="@dimen/_8sdp"
+                    android:src="@drawable/iv_record_selector"
+                    app:layout_constraintStart_toEndOf="@+id/btnBack"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_12sdp"
+                    android:background="@drawable/custom_bg_guitar_timer"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingHorizontal="@dimen/_11sdp"
+                    android:paddingVertical="@dimen/_11sdp"
+                    app:layout_constraintEnd_toEndOf="@+id/btnRecord"
+                    app:layout_constraintStart_toStartOf="@+id/btnBack"
+                    app:layout_constraintTop_toBottomOf="@+id/btnRecord">
+
+                    <ImageView
+                        android:id="@+id/icOutTime"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_out_time" />
+
+                    <TextView
+                        android:id="@+id/tvTime"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_5sdp"
+                        android:fontFamily="@font/sf_pro_display_bold"
+                        android:text="00:00"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_12sdp" />
+
+                </LinearLayout>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rcv"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_marginHorizontal="@dimen/_7sdp"
+                android:layout_marginTop="@dimen/_8sdp"
+                app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/clTop"
+                tools:listitem="@layout/item_button_guitar" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:splitMotionEvents="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/layoutButton"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/lineGuitar1"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_20sdp"
+                android:src="@drawable/line_guitar"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/lineGuitar2"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_20sdp"
+                android:layout_marginTop="7dp"
+                android:src="@drawable/line_guitar"
+                app:layout_constraintTop_toBottomOf="@id/lineGuitar1" />
+
+            <ImageView
+                android:id="@+id/lineGuitar3"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_20sdp"
+                android:layout_marginTop="7dp"
+                android:src="@drawable/line_guitar"
+                app:layout_constraintTop_toBottomOf="@id/lineGuitar2" />
+
+            <ImageView
+                android:id="@+id/lineGuitar4"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_20sdp"
+                android:layout_marginTop="7dp"
+                android:src="@drawable/line_guitar"
+                app:layout_constraintTop_toBottomOf="@id/lineGuitar3" />
+
+            <ImageView
+                android:id="@+id/lineGuitar5"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_20sdp"
+                android:layout_marginTop="7dp"
+                android:src="@drawable/line_guitar"
+                app:layout_constraintTop_toBottomOf="@id/lineGuitar4" />
+
+            <ImageView
+                android:id="@+id/lineGuitar6"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_20sdp"
+                android:layout_marginTop="7dp"
+                android:src="@drawable/line_guitar"
+                app:layout_constraintTop_toBottomOf="@id/lineGuitar5" />
+
+            <ImageView
+                android:id="@+id/buttonAm1"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_marginEnd="5dp"
+                android:src="@drawable/button_number_one"
+                android:visibility="invisible"
+                app:layout_constraintBottom_toBottomOf="@id/lineGuitar5"
+                app:layout_constraintEnd_toEndOf="@id/lineGuitar5"
+                app:layout_constraintTop_toTopOf="@id/lineGuitar5" />
+
+            <ImageView
+                android:id="@+id/buttonAm2"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_marginEnd="@dimen/_20sdp"
+                android:src="@drawable/button_number_two"
+                android:visibility="invisible"
+                app:layout_constraintBottom_toBottomOf="@id/lineGuitar3"
+                app:layout_constraintEnd_toStartOf="@id/buttonAm1"
+                app:layout_constraintTop_toTopOf="@id/lineGuitar3" />
+
+            <ImageView
+                android:id="@+id/buttonAm3"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:src="@drawable/button_number_three"
+                android:visibility="invisible"
+                app:layout_constraintBottom_toBottomOf="@id/lineGuitar4"
+                app:layout_constraintEnd_toEndOf="@id/buttonAm2"
+                app:layout_constraintStart_toStartOf="@id/buttonAm2"
+                app:layout_constraintTop_toTopOf="@id/lineGuitar4" />
+
+            <ImageView
+                android:id="@+id/buttonC3"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_marginEnd="@dimen/_20sdp"
+                android:src="@drawable/button_number_three"
+                android:visibility="invisible"
+                app:layout_constraintBottom_toBottomOf="@id/lineGuitar2"
+                app:layout_constraintEnd_toStartOf="@id/buttonAm2"
+                app:layout_constraintTop_toTopOf="@id/lineGuitar2" />
+
+            <ImageView
+                android:id="@+id/buttonC2"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:src="@drawable/button_number_two"
+                android:visibility="invisible"
+                app:layout_constraintBottom_toBottomOf="@id/buttonAm2"
+                app:layout_constraintEnd_toEndOf="@id/buttonAm2"
+                app:layout_constraintStart_toStartOf="@id/buttonAm2"
+                app:layout_constraintTop_toTopOf="@id/buttonAm2" />
+
+            <ImageView
+                android:id="@+id/buttonC1"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:src="@drawable/button_number_one"
+                android:visibility="invisible"
+                app:layout_constraintBottom_toBottomOf="@id/buttonAm1"
+                app:layout_constraintEnd_toEndOf="@id/buttonAm1"
+                app:layout_constraintStart_toStartOf="@id/buttonAm1"
+                app:layout_constraintTop_toTopOf="@id/buttonAm1" />
+
+            <ImageView
+                android:id="@+id/buttonDm1"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:src="@drawable/button_number_one"
+                android:visibility="invisible"
+                app:layout_constraintBottom_toBottomOf="@id/lineGuitar3"
+                app:layout_constraintEnd_toEndOf="@id/buttonAm1"
+                app:layout_constraintTop_toTopOf="@id/lineGuitar3" />
+
+            <ImageView
+                android:id="@+id/buttonDm2"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:src="@drawable/button_number_two"
+                android:visibility="invisible"
+                app:layout_constraintBottom_toBottomOf="@id/buttonAm1"
+                app:layout_constraintEnd_toEndOf="@id/buttonAm1"
+                app:layout_constraintStart_toStartOf="@id/buttonAm1"
+                app:layout_constraintTop_toTopOf="@id/buttonAm1" />
+
+            <ImageView
+                android:id="@+id/buttonDm3"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:src="@drawable/button_number_three"
+                android:visibility="invisible"
+                app:layout_constraintBottom_toBottomOf="@id/buttonAm3"
+                app:layout_constraintEnd_toEndOf="@id/buttonAm3"
+                app:layout_constraintStart_toStartOf="@id/buttonAm3"
+                app:layout_constraintTop_toTopOf="@id/buttonAm3" />
+
+            <ImageView
+                android:id="@+id/buttonDm4"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:src="@drawable/button_number_four"
+                android:visibility="invisible"
+                app:layout_constraintBottom_toBottomOf="@id/lineGuitar6"
+                app:layout_constraintEnd_toEndOf="@id/buttonAm3"
+                app:layout_constraintStart_toStartOf="@id/buttonAm3"
+                app:layout_constraintTop_toTopOf="@id/lineGuitar6" />
+
+            <ImageView
+                android:id="@+id/buttonG1"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:src="@drawable/button_number_one"
+                android:visibility="invisible"
+                app:layout_constraintBottom_toBottomOf="@id/lineGuitar2"
+                app:layout_constraintEnd_toEndOf="@id/buttonAm3"
+                app:layout_constraintStart_toStartOf="@id/buttonAm3"
+                app:layout_constraintTop_toTopOf="@id/lineGuitar2" />
+
+            <ImageView
+                android:id="@+id/buttonG3"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:src="@drawable/button_number_three"
+                android:visibility="invisible"
+                app:layout_constraintBottom_toBottomOf="@id/lineGuitar6"
+                app:layout_constraintEnd_toEndOf="@id/buttonC3"
+                app:layout_constraintStart_toStartOf="@id/buttonC3"
+                app:layout_constraintTop_toTopOf="@id/lineGuitar6" />
+
+            <ImageView
+                android:id="@+id/buttonG2"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:src="@drawable/button_number_two"
+                android:visibility="invisible"
+                app:layout_constraintBottom_toBottomOf="@id/lineGuitar1"
+                app:layout_constraintEnd_toEndOf="@+id/buttonG3"
+                app:layout_constraintStart_toStartOf="@id/buttonG3"
+                app:layout_constraintTop_toTopOf="@id/lineGuitar1" />
+
+            <ImageView
+                android:id="@+id/buttonF1"
+                android:layout_width="18dp"
+                android:layout_height="0dp"
+                android:layout_marginEnd="@dimen/_5sdp"
+                android:src="@drawable/button_number_one_vertical"
+                android:visibility="invisible"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@id/lineGuitar1"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/buttonF2"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:src="@drawable/button_number_two"
+                android:visibility="invisible"
+                app:layout_constraintBottom_toBottomOf="@id/lineGuitar4"
+                app:layout_constraintEnd_toEndOf="@id/buttonAm2"
+                app:layout_constraintStart_toStartOf="@id/buttonAm2"
+                app:layout_constraintTop_toTopOf="@id/lineGuitar4" />
+
+            <ImageView
+                android:id="@+id/buttonF3"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:src="@drawable/button_number_three"
+                android:visibility="invisible"
+                app:layout_constraintBottom_toBottomOf="@id/lineGuitar2"
+                app:layout_constraintEnd_toEndOf="@id/buttonG2"
+                app:layout_constraintStart_toStartOf="@id/buttonG2"
+                app:layout_constraintTop_toTopOf="@id/lineGuitar2" />
+
+            <ImageView
+                android:id="@+id/buttonF4"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:src="@drawable/button_number_four"
+                android:visibility="invisible"
+                app:layout_constraintBottom_toBottomOf="@id/lineGuitar3"
+                app:layout_constraintEnd_toEndOf="@id/buttonF3"
+                app:layout_constraintStart_toStartOf="@id/buttonF3"
+                app:layout_constraintTop_toTopOf="@id/lineGuitar3" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <LinearLayout
+        android:id="@+id/loBanner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <RelativeLayout
+            android:id="@+id/rl_banner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <include
+                android:id="@+id/include"
+                layout="@layout/layout_banner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
