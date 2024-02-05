@@ -13,31 +13,10 @@
         app:layout_constraintBottom_toTopOf="@+id/bottomMenu"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <com.piano.keyboard.synthesia.learnpiano.play.music.utils.NTDOtherBottomMenu
+    <com.ntd.appid1.appid2.appid3.utils.NTDOtherBottomMenu
         android:id="@+id/bottomMenu"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="@dimen/_8sdp"
-        app:layout_constraintBottom_toTopOf="@id/loBanner" />
-
-    <LinearLayout
-        android:id="@+id/loBanner"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="bottom"
-        android:orientation="vertical"
-        app:layout_constraintBottom_toBottomOf="parent">
-
-        <RelativeLayout
-            android:id="@+id/rl_banner"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-            <include
-                android:id="@+id/include"
-                layout="@layout/layout_banner"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
-        </RelativeLayout>
-    </LinearLayout>
+        app:layout_constraintBottom_toBottomOf="parent"/>
 </androidx.constraintlayout.widget.ConstraintLayout>

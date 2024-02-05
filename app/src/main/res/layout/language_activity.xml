@@ -64,19 +64,6 @@
         android:layout_height="0dp"
         android:layout_marginTop="@dimen/_12sdp"
         android:layout_marginBottom="@dimen/_10sdp"
-        app:layout_constraintBottom_toTopOf="@id/nativeAds"
-        app:layout_constraintTop_toBottomOf="@id/ctlToolBar" />
-
-    <FrameLayout
-        android:id="@+id/nativeAds"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent">
-
-        <include layout="@layout/load_native_intro" />
-    </FrameLayout>
+        app:layout_constraintTop_toBottomOf="@id/ctlToolBar" />
 </androidx.constraintlayout.widget.ConstraintLayout>

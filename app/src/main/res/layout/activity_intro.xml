@@ -12,17 +12,17 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:scrollbars="none"
-        app:layout_constraintBottom_toTopOf="@id/clText"
+        app:layout_constraintHeight_percent="0.55"
         app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/clText"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="-24dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/_10sdp"
         android:background="@drawable/custom_bg_intro"
-        android:paddingTop="@dimen/_20sdp"
         app:layout_constraintBottom_toBottomOf="parent"
+        android:paddingTop="@dimen/_20sdp"
         app:layout_constraintTop_toBottomOf="@+id/layoutContainer">
 
         <TextView
@@ -40,8 +40,8 @@
             android:textAlignment="center"
             android:textColor="@color/white"
             android:textFontWeight="656"
-            android:textSize="22sp"
-            app:layout_constraintBottom_toTopOf="@id/tvContent" />
+            android:textSize="@dimen/_17ssp"
+            app:layout_constraintTop_toTopOf="parent"/>
 
         <TextView
             android:id="@+id/tvContent"
@@ -55,7 +55,7 @@
             android:textColor="#D6D6D6"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintBottom_toTopOf="@id/ivDot" />
+            app:layout_constraintTop_toBottomOf="@+id/tvTitle"/>
 
         <ImageView
             android:id="@+id/ivDot"
@@ -63,9 +63,9 @@
             android:layout_height="wrap_content"
             android:src="@drawable/bg_dot_1"
             android:layout_marginBottom="@dimen/_10sdp"
+            app:layout_constraintTop_toBottomOf="@+id/tvContent"
             android:layout_marginStart="@dimen/_20sdp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintBottom_toTopOf="@id/nativeAds" />
+            app:layout_constraintStart_toStartOf="parent"/>
 
         <TextView
             android:id="@+id/textNext"
@@ -80,18 +80,5 @@
             app:layout_constraintBottom_toBottomOf="@id/ivDot"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="@id/ivDot" />
-
-        <FrameLayout
-            android:id="@+id/nativeAds"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:orientation="vertical"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent">
-
-            <include layout="@layout/load_native_intro" />
-        </FrameLayout>
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

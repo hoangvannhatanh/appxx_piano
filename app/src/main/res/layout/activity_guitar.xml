@@ -11,7 +11,7 @@
         android:layout_height="0dp"
         android:background="@drawable/bg_guitar"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toTopOf="@id/loBanner">
+        app:layout_constraintBottom_toBottomOf="parent">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/layoutButton"
@@ -347,25 +347,4 @@
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.constraintlayout.widget.ConstraintLayout>
-
-    <LinearLayout
-        android:id="@+id/loBanner"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="bottom"
-        android:orientation="vertical"
-        app:layout_constraintBottom_toBottomOf="parent">
-
-        <RelativeLayout
-            android:id="@+id/rl_banner"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-            <include
-                android:id="@+id/include"
-                layout="@layout/layout_banner"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
-        </RelativeLayout>
-    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
