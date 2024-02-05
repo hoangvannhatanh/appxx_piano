@@ -367,7 +367,7 @@
         android:visibility="gone"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <com.piano.keyboard.synthesia.learnpiano.play.music.piano_lib.view.NTDOtherPianoView
+    <com.ntd.appid1.appid2.appid3.piano_lib.view.NTDOtherPianoView
         android:id="@+id/pv"
         android:layout_width="match_parent"
         android:layout_height="0dp"
@@ -375,29 +375,8 @@
         android:layout_marginBottom="@dimen/_8sdp"
         android:background="@android:color/transparent"
         android:descendantFocusability="beforeDescendants"
-        app:layout_constraintBottom_toTopOf="@id/loBanner"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toBottomOf="@id/layout_piano_control" />
-
-    <LinearLayout
-        android:id="@+id/loBanner"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="bottom"
-        android:orientation="vertical"
-        app:layout_constraintBottom_toBottomOf="parent">
-
-        <RelativeLayout
-            android:id="@+id/rl_banner"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-            <include
-                android:id="@+id/include"
-                layout="@layout/layout_banner"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
-        </RelativeLayout>
-    </LinearLayout>
 
     <View
         android:layout_width="match_parent"

@@ -53,7 +53,7 @@
                 app:layout_constraintTop_toTopOf="@+id/img_sb" />
         </androidx.constraintlayout.widget.ConstraintLayout>
 
-        <com.piano.keyboard.synthesia.learnpiano.play.music.piano_lib.view.NTDOtherPianoView
+        <com.ntd.appid1.appid2.appid3.piano_lib.view.NTDOtherPianoView
             android:id="@+id/pv"
             android:layout_width="match_parent"
             android:layout_height="0dp"
@@ -111,7 +111,7 @@
                 app:layout_constraintTop_toTopOf="@+id/img_sb_2" />
         </androidx.constraintlayout.widget.ConstraintLayout>
 
-        <com.piano.keyboard.synthesia.learnpiano.play.music.piano_lib.view.NTDOtherPianoView
+        <com.ntd.appid1.appid2.appid3.piano_lib.view.NTDOtherPianoView
             android:id="@+id/pv_2"
             android:layout_width="match_parent"
             android:layout_height="0dp"
