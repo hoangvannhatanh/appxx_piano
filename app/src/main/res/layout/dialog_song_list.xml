@@ -11,7 +11,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/_16sdp"
         android:layout_marginTop="@dimen/_16sdp"
-        android:fontFamily="@font/sf_compact_medium"
+        android:fontFamily="@font/nunito_medium"
         android:text="@string/play_list"
         android:textColor="@color/white"
         android:textFontWeight="656"

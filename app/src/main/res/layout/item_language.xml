@@ -3,8 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="@dimen/_50sdp"
     android:layout_marginHorizontal="@dimen/_15sdp"
-    android:layout_marginTop="@dimen/_12sdp"
-    android:background="@drawable/bg_item_language">
+    android:layout_marginTop="@dimen/_12sdp">
 
     <ImageView
         android:id="@+id/imgCountry"
@@ -21,16 +20,7 @@
         android:layout_centerVertical="true"
         android:layout_marginStart="@dimen/_8sdp"
         android:layout_toEndOf="@id/imgCountry"
-        android:fontFamily="@font/sf_compact_medium"
-        android:textColor="@color/white"
-        android:textSize="@dimen/_16sdp" />
-
-    <ImageView
-        android:id="@+id/imgChecked"
-        android:layout_width="@dimen/_20sdp"
-        android:layout_height="@dimen/_20sdp"
-        android:layout_alignParentEnd="true"
-        android:layout_centerVertical="true"
-        android:layout_marginEnd="@dimen/_18sdp"
-        android:src="@drawable/state_radio_language" />
+        android:fontFamily="@font/nunito_medium"
+        android:textColor="@color/color_201A25"
+        android:textSize="@dimen/_14sdp" />
 </RelativeLayout>
