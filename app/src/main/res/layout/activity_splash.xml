@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/primary"
+    android:background="@color/white"
     tools:context=".screens.splash.NTDViewSplashActivity">
 
     <ImageView
@@ -22,11 +22,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/_21sdp"
-        android:fontFamily="@font/sf_compact_medium"
+        android:fontFamily="@font/nunito_medium"
         android:text="@string/learn_piano"
-        android:textColor="@color/white"
+        android:textColor="@color/color_201A25"
         android:textFontWeight="790"
-        android:textSize="22sp"
+        android:textSize="@dimen/_20ssp"
         app:layout_constraintEnd_toEndOf="@id/imageLearnPiano"
         app:layout_constraintStart_toStartOf="@id/imageLearnPiano"
         app:layout_constraintTop_toBottomOf="@id/imageLearnPiano" />
@@ -46,10 +46,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="@dimen/_44sdp"
-        android:fontFamily="@font/sf_compact_medium"
+        android:fontFamily="@font/nunito_medium"
         android:text="@string/tite_splash"
-        android:textColor="@color/white"
-        android:textSize="16sp"
+        android:textColor="@color/color_201A25"
+        android:textSize="@dimen/_13ssp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@id/gifSplash"
         app:layout_constraintStart_toStartOf="@id/gifSplash" />

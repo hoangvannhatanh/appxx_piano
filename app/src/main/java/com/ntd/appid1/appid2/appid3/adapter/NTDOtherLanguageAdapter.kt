@@ -6,7 +6,9 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.RecyclerView
+import com.ntd.appid1.appid2.appid3.R
 import com.ntd.appid1.appid2.appid3.databinding.ItemLanguageBinding
+import com.ntd.appid1.appid2.appid3.extensions.setBackGroundDrawable
 import com.ntd.appid1.appid2.appid3.model.NTDModelLanguage
 
 class NTDOtherLanguageAdapter(
@@ -34,7 +36,11 @@ class NTDOtherLanguageAdapter(
                 ContextCompat.getDrawable(context, it)
             })
             binding.txtLanguage.text = languageModel.languageName
-            binding.imgChecked.isActivated = currentPosition == position
+            if (currentPosition == position) {
+                binding.root.setBackGroundDrawable(R.drawable.radio_flat_selected)
+            } else {
+                binding.root.setBackGroundDrawable(R.drawable.radio_flat_unselected)
+            }
             binding.root.setOnClickListener {
                 onItemClick(languageModel)
                 setCurrentPosition(position)

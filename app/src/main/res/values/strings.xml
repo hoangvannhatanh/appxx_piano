@@ -2,7 +2,7 @@
 <resources>
     <string name="app_name">Learn Piano</string>
     <string name="learn_piano">Learn Piano</string>
-    <string name="language">Language</string>
+    <string name="language">Languages</string>
     <string name="share">Share</string>
     <string name="privacy_policy">Privacy policy</string>
     <string name="guitar">Guitar</string>

@@ -2,14 +2,8 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
-
-    <ImageView
-        android:id="@+id/bg"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@color/primary"
-        android:scaleType="centerCrop" />
+    android:layout_height="match_parent"
+    android:background="@color/white">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/ctlToolBar"
@@ -38,11 +32,11 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="@dimen/_10sdp"
             android:layout_marginTop="@dimen/_16sdp"
-            android:fontFamily="@font/sf_compact_medium"
+            android:fontFamily="@font/nunito_bold"
             android:text="@string/language"
-            android:textColor="@color/white"
+            android:textColor="@color/color_201A25"
             android:textFontWeight="656"
-            android:textSize="@dimen/_18sdp"
+            android:textSize="@dimen/_19sdp"
             app:layout_constraintLeft_toRightOf="@id/img_back"
             app:layout_constraintTop_toTopOf="parent" />
 
