@@ -37,7 +37,7 @@ class NTDViewMainActivity : NTDOtherBaseActivityAppntd<ActivityMainBinding>() {
                             binding.vpMain.currentItem = 0
                         }
 
-                        NTDOtherBottomMenu.Action.OPEN_REPORT -> if (binding.vpMain.currentItem !== 1) {
+                        NTDOtherBottomMenu.Action.OPEN_TRACK -> if (binding.vpMain.currentItem !== 1) {
                             binding.vpMain.currentItem = 1
                         }
 
@@ -130,6 +130,5 @@ class NTDViewMainActivity : NTDOtherBaseActivityAppntd<ActivityMainBinding>() {
 
     companion object {
         var showRateFromInstrument: Boolean = false
-        var showInterAds: Boolean = false
     }
 }

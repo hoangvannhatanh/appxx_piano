@@ -21,6 +21,7 @@ import com.ntd.appid1.appid2.appid3.R
 import com.ntd.appid1.appid2.appid3.base.NTDOtherBaseActivityAppntd
 import com.ntd.appid1.appid2.appid3.local.NTDHelperSharePrefUtils
 import com.ntd.appid1.appid2.appid3.databinding.ActivityPermissionBinding
+import com.ntd.appid1.appid2.appid3.extensions.is32Plus
 import com.ntd.appid1.appid2.appid3.extensions.onAvoidDoubleClick
 
 class NTDViewPermissionActivity : NTDOtherBaseActivityAppntd<ActivityPermissionBinding>(),
@@ -70,7 +71,7 @@ class NTDViewPermissionActivity : NTDOtherBaseActivityAppntd<ActivityPermissionB
         checkPermissionStorage =
             NTDHelperPermissionHelper.checkPermissionStorage(this@NTDViewPermissionActivity, binding.btnAllowStorage)
 
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
+        if (is32Plus()) {
             enableNotification = PermissionChecker.checkSelfPermission(
                 this,
                 Manifest.permission.POST_NOTIFICATIONS
@@ -126,19 +127,15 @@ class NTDViewPermissionActivity : NTDOtherBaseActivityAppntd<ActivityPermissionB
     private fun enableGo() {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
             if (enableNotification && checkPermissionRecord) {
-                binding.btnGo.setTextColor(resources.getColor(R.color.text_high_light, resources.newTheme()))
-                binding.imgPermission.setImageResource(R.drawable.img_permission_unlock)
+                binding.btnGo.setTextColor(resources.getColor(R.color.color_AD51B2, resources.newTheme()))
             } else {
-                binding.btnGo.setTextColor(resources.getColor(R.color.gray_81, resources.newTheme()))
-                binding.imgPermission.setImageResource(R.drawable.img_permission_lock)
+                binding.btnGo.setTextColor(resources.getColor(R.color.color_DCDDE0, resources.newTheme()))
             }
         } else {
             if (checkPermissionRecord && checkPermissionStorage) {
-                binding.btnGo.setTextColor(resources.getColor(R.color.text_high_light, resources.newTheme()))
-                binding.imgPermission.setImageResource(R.drawable.img_permission_unlock)
+                binding.btnGo.setTextColor(resources.getColor(R.color.color_AD51B2, resources.newTheme()))
             } else {
-                binding.btnGo.setTextColor(resources.getColor(R.color.gray_81, resources.newTheme()))
-                binding.imgPermission.setImageResource(R.drawable.img_permission_lock)
+                binding.btnGo.setTextColor(resources.getColor(R.color.color_DCDDE0, resources.newTheme()))
             }
         }
     }

@@ -9,6 +9,7 @@ import android.widget.TextView
 import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.core.content.ContextCompat
 import com.ntd.appid1.appid2.appid3.R
+import com.ntd.appid1.appid2.appid3.extensions.setTextColorGradient
 
 class NTDOtherBottomMenu : ConstraintLayout {
     private var onMenuClick: OnMenuClick? = null
@@ -46,6 +47,7 @@ class NTDOtherBottomMenu : ConstraintLayout {
         tvHome = findViewById(R.id.tvHome)
         tvRecord = findViewById(R.id.tvRecord)
         tvSetting = findViewById(R.id.tvSetting)
+        tvHome?.setTextColorGradient("#30274E", "#803253")
         listenOnClickItem()
     }
 
@@ -53,29 +55,29 @@ class NTDOtherBottomMenu : ConstraintLayout {
         when (view) {
             ScreenTag.HOME -> {
                 ivHome?.setImageResource(R.drawable.ic_home_selected)
-                tvHome?.setTextColor(ContextCompat.getColor(context,R.color.text_primary))
+                tvHome?.setTextColorGradient("#30274E", "#803253")
                 ivRecord?.setImageResource(R.drawable.ic_record_unselected)
-                tvRecord?.setTextColor(ContextCompat.getColor(context,R.color.text_unselected))
+                tvRecord?.setTextColor(ContextCompat.getColor(context,R.color.color_B0B0B0))
                 ivSetting?.setImageResource(R.drawable.ic_setting_unselected)
-                tvSetting?.setTextColor(ContextCompat.getColor(context,R.color.text_unselected))
+                tvSetting?.setTextColor(ContextCompat.getColor(context,R.color.color_B0B0B0))
             }
 
-            ScreenTag.REPORT -> {
+            ScreenTag.TRACK -> {
                 ivHome?.setImageResource(R.drawable.ic_home_unselected)
-                tvHome?.setTextColor(ContextCompat.getColor(context,R.color.text_unselected))
+                tvHome?.setTextColor(ContextCompat.getColor(context,R.color.color_B0B0B0))
                 ivRecord?.setImageResource(R.drawable.ic_record_selected)
-                tvRecord?.setTextColor(ContextCompat.getColor(context,R.color.text_primary))
+                tvRecord?.setTextColorGradient("#30274E", "#803253")
                 ivSetting?.setImageResource(R.drawable.ic_setting_unselected)
-                tvSetting?.setTextColor(ContextCompat.getColor(context,R.color.text_unselected))
+                tvSetting?.setTextColor(ContextCompat.getColor(context,R.color.color_B0B0B0))
             }
 
             ScreenTag.SETTING -> {
                 ivHome?.setImageResource(R.drawable.ic_home_unselected)
-                tvHome?.setTextColor(ContextCompat.getColor(context,R.color.text_unselected))
+                tvHome?.setTextColor(ContextCompat.getColor(context,R.color.color_B0B0B0))
                 ivRecord?.setImageResource(R.drawable.ic_record_unselected)
-                tvRecord?.setTextColor(ContextCompat.getColor(context,R.color.text_unselected))
+                tvRecord?.setTextColor(ContextCompat.getColor(context,R.color.color_B0B0B0))
                 ivSetting?.setImageResource(R.drawable.ic_setting_selected)
-                tvSetting?.setTextColor(ContextCompat.getColor(context,R.color.text_primary))
+                tvSetting?.setTextColorGradient("#30274E", "#803253")
             }
 
             else -> {}
@@ -88,8 +90,8 @@ class NTDOtherBottomMenu : ConstraintLayout {
             onMenuClick?.onClick(Action.OPEN_HOME)
         }
         btnRecord?.setOnClickListener {
-            selectScreen(ScreenTag.REPORT)
-            onMenuClick?.onClick(Action.OPEN_REPORT)
+            selectScreen(ScreenTag.TRACK)
+            onMenuClick?.onClick(Action.OPEN_TRACK)
         }
         btnSetting?.setOnClickListener {
             selectScreen(ScreenTag.SETTING)
@@ -103,11 +105,11 @@ class NTDOtherBottomMenu : ConstraintLayout {
     }
 
     enum class Action {
-        OPEN_HOME, OPEN_REPORT, OPEN_SETTING
+        OPEN_HOME, OPEN_TRACK, OPEN_SETTING
     }
 
     enum class ScreenTag {
-        HOME, REPORT, SETTING
+        HOME, TRACK, SETTING
     }
 
     interface OnMenuClick {

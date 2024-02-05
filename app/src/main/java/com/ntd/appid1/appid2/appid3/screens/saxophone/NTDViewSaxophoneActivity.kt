@@ -163,7 +163,6 @@ class NTDViewSaxophoneActivity : NTDOtherBaseActivityAppntd<ActivitySaxophoneBin
             whenBackPress()
             dialogSaveRecord.binding.tvClose.setOnClickListener {
                 if (isRecording) {
-                    NTDViewMainActivity.showInterAds = true
                     finish()
                 }
                 dialogSaveRecord.binding.edtNameRecord.text.clear()
@@ -346,24 +345,6 @@ class NTDViewSaxophoneActivity : NTDOtherBaseActivityAppntd<ActivitySaxophoneBin
         imageView.postDelayed({
             imageView.setImageResource(imageInit)
         }, 50)
-    }
-
-    override fun onBackPressed() {
-        var count = NTDHelperSharePrefUtils.getInt(NTDHelperSharePrefUtils.IS_BACK_FROM_INSTRUMENT,0)
-        if (!NTDHelperSharePrefUtils.getBoolean(NTDHelperSharePrefUtils.IS_RATED, false)) {
-            count++
-            NTDHelperSharePrefUtils.setInt(NTDHelperSharePrefUtils.IS_BACK_FROM_INSTRUMENT, count)
-            if (count % 2 == 0) {
-                NTDViewMainActivity.showRateFromInstrument = true
-                finish()
-            } else {
-                NTDViewMainActivity.showInterAds = true
-                finish()
-            }
-        } else {
-            NTDViewMainActivity.showInterAds = true
-            finish()
-        }
     }
 
     override fun onDestroy() {

@@ -4,30 +4,40 @@
     android:id="@+id/layoutContainer"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:layout_marginVertical="@dimen/_5sdp"
+    android:background="@drawable/radio_flat_unselected"
     android:gravity="center"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:paddingHorizontal="@dimen/_14sdp"
+    android:paddingVertical="@dimen/_7sdp">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/layoutMain"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/primary"
-        android:paddingHorizontal="@dimen/_18sdp"
-        android:paddingBottom="@dimen/_16sdp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/ivTrack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_track"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
             android:id="@+id/textRecordName"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/_16sdp"
+            android:layout_marginStart="@dimen/_10sdp"
             android:fontFamily="@font/nunito_medium"
             android:text="File name"
-            android:textColor="@color/white"
-            android:textSize="14sp"
-            app:layout_constraintStart_toStartOf="parent"
+            android:textColor="@color/color_AD51B2"
+            android:textSize="@dimen/_14ssp"
+            app:layout_constraintStart_toEndOf="@+id/ivTrack"
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
@@ -38,40 +48,9 @@
             android:layout_marginBottom="@dimen/_16sdp"
             android:fontFamily="@font/nunito_medium"
             android:text="Time"
-            android:textColor="@color/text_hint"
+            android:textColor="@color/color_B0B0B0"
             app:layout_constraintStart_toStartOf="@id/textRecordName"
             app:layout_constraintTop_toBottomOf="@id/textRecordName" />
 
-        <TextView
-            android:id="@+id/textTime"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:fontFamily="@font/nunito_medium"
-            android:text="Time"
-            android:textColor="@color/text_hint"
-            app:layout_constraintBottom_toBottomOf="@+id/textDateTime"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="@+id/textRecordName" />
-        />
-
-        <View
-            android:id="@+id/viewSupported2"
-            android:layout_width="@dimen/_20sdp"
-            android:layout_height="@dimen/_20sdp"
-            android:layout_marginEnd="@dimen/_50sdp"
-            app:layout_constraintEnd_toStartOf="@id/textTime"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-
     </androidx.constraintlayout.widget.ConstraintLayout>
-
-    <View
-        android:layout_width="0dp"
-        android:layout_height="1dp"
-        android:background="#393939"
-        app:layout_constraintEnd_toEndOf="@+id/layoutMain"
-        app:layout_constraintStart_toStartOf="@+id/layoutMain"
-        app:layout_constraintTop_toBottomOf="@+id/layoutMain" />
-
-
 </androidx.constraintlayout.widget.ConstraintLayout>
