@@ -57,25 +57,25 @@ class NTDOtherBottomMenu : ConstraintLayout {
                 ivHome?.setImageResource(R.drawable.ic_home_selected)
                 tvHome?.setTextColorGradient("#30274E", "#803253")
                 ivRecord?.setImageResource(R.drawable.ic_record_unselected)
-                tvRecord?.setTextColor(ContextCompat.getColor(context,R.color.color_B0B0B0))
+                tvRecord?.setTextColorGradient("#B0B0B0", "#B0B0B0")
                 ivSetting?.setImageResource(R.drawable.ic_setting_unselected)
-                tvSetting?.setTextColor(ContextCompat.getColor(context,R.color.color_B0B0B0))
+                tvSetting?.setTextColorGradient("#B0B0B0", "#B0B0B0")
             }
 
             ScreenTag.TRACK -> {
                 ivHome?.setImageResource(R.drawable.ic_home_unselected)
-                tvHome?.setTextColor(ContextCompat.getColor(context,R.color.color_B0B0B0))
+                tvHome?.setTextColorGradient("#B0B0B0", "#B0B0B0")
                 ivRecord?.setImageResource(R.drawable.ic_record_selected)
                 tvRecord?.setTextColorGradient("#30274E", "#803253")
                 ivSetting?.setImageResource(R.drawable.ic_setting_unselected)
-                tvSetting?.setTextColor(ContextCompat.getColor(context,R.color.color_B0B0B0))
+                tvSetting?.setTextColorGradient("#B0B0B0", "#B0B0B0")
             }
 
             ScreenTag.SETTING -> {
                 ivHome?.setImageResource(R.drawable.ic_home_unselected)
-                tvHome?.setTextColor(ContextCompat.getColor(context,R.color.color_B0B0B0))
+                tvHome?.setTextColorGradient("#B0B0B0", "#B0B0B0")
                 ivRecord?.setImageResource(R.drawable.ic_record_unselected)
-                tvRecord?.setTextColor(ContextCompat.getColor(context,R.color.color_B0B0B0))
+                tvRecord?.setTextColorGradient("#B0B0B0", "#B0B0B0")
                 ivSetting?.setImageResource(R.drawable.ic_setting_selected)
                 tvSetting?.setTextColorGradient("#30274E", "#803253")
             }

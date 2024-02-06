@@ -11,7 +11,7 @@
         android:layout_height="0dp"
         android:background="@drawable/background_main_tracks"
         android:elevation="@dimen/_2sdp"
-        app:layout_constraintHeight_percent="0.7"
+        app:layout_constraintHeight_percent="0.6"
         app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -54,7 +54,7 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/_100sdp"
+        android:layout_marginTop="@dimen/_50sdp"
         android:elevation="@dimen/_2sdp"
         app:layout_constraintTop_toBottomOf="@+id/clHeader">
 
@@ -69,7 +69,6 @@
             android:id="@+id/clTime"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/_22sdp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/soundWave">
@@ -88,10 +87,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="@dimen/_2sdp"
-                android:fontFamily="@font/nunito_medium"
+                android:fontFamily="@font/nunito_bold"
                 android:text="00:00:00"
                 android:textColor="@color/white"
-                android:textSize="16sp"
+                android:textSize="@dimen/_30ssp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/ivDot"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -114,6 +113,7 @@
             android:id="@+id/ivPlay"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_20sdp"
             android:src="@drawable/ic_play_record"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -129,15 +129,35 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="@+id/ivShare" />
 
+        <TextView
+            app:layout_constraintStart_toStartOf="@+id/ivRename"
+            app:layout_constraintEnd_toEndOf="@+id/ivRename"
+            app:layout_constraintTop_toBottomOf="@+id/ivRename"
+            android:layout_width="wrap_content"
+            android:textSize="@dimen/_15ssp"
+            android:fontFamily="@font/nunito_medium"
+            android:text="@string/edit"
+            android:layout_height="wrap_content"/>
+
         <ImageView
             android:id="@+id/ivShare"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/ic_share_record"
             android:layout_marginTop="@dimen/_40sdp"
+            android:src="@drawable/ic_share_record"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/ivPlay" />
+
+        <TextView
+            app:layout_constraintStart_toStartOf="@+id/ivShare"
+            app:layout_constraintEnd_toEndOf="@+id/ivShare"
+            app:layout_constraintTop_toBottomOf="@+id/ivShare"
+            android:layout_width="wrap_content"
+            android:textSize="@dimen/_15ssp"
+            android:fontFamily="@font/nunito_medium"
+            android:text="@string/share"
+            android:layout_height="wrap_content"/>
 
         <ImageView
             android:id="@+id/btnDelete"
@@ -147,6 +167,16 @@
             app:layout_constraintBottom_toBottomOf="@+id/ivShare"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="@+id/ivShare" />
+
+        <TextView
+            app:layout_constraintStart_toStartOf="@+id/btnDelete"
+            app:layout_constraintEnd_toEndOf="@+id/btnDelete"
+            app:layout_constraintTop_toBottomOf="@+id/btnDelete"
+            android:layout_width="wrap_content"
+            android:textSize="@dimen/_15ssp"
+            android:fontFamily="@font/nunito_medium"
+            android:text="@string/delete"
+            android:layout_height="wrap_content"/>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
