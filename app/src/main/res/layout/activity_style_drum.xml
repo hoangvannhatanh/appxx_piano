@@ -11,7 +11,7 @@
         android:id="@+id/icBack"
         android:layout_width="@dimen/_38sdp"
         android:layout_height="@dimen/_32sdp"
-        android:src="@drawable/ic_back_white"
+        android:src="@drawable/ic_back"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         android:layout_marginTop="@dimen/_22sdp"

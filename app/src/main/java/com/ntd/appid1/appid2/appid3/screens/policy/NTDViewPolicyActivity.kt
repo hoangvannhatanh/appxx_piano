@@ -25,7 +25,7 @@ class NTDViewPolicyActivity : NTDOtherBaseActivityAppntd<ActivityPolicyBinding>(
             )
         }
 
-        binding.tvVersion.text = getString(R.string.version) + BuildConfig.VERSION_NAME
+        binding.tvVersion.text = getString(R.string.version) + " " + BuildConfig.VERSION_NAME
     }
 
     override fun initData() {}
