@@ -18,7 +18,7 @@
         android:id="@+id/clHeader"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/_50sdp"
+        android:layout_marginTop="@dimen/_36sdp"
         android:elevation="@dimen/_2sdp"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -26,7 +26,7 @@
             android:id="@+id/btnBack"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="@dimen/_20sdp"
+            android:padding="@dimen/_14sdp"
             android:src="@drawable/ic_back"
             app:layout_constraintBottom_toBottomOf="@+id/tvTitle"
             app:layout_constraintStart_toStartOf="parent"
@@ -37,6 +37,7 @@
             android:id="@+id/tvTitle"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_10sdp"
             android:layout_marginHorizontal="@dimen/_10sdp"
             android:ellipsize="marquee"
             android:fontFamily="@font/nunito_medium"
