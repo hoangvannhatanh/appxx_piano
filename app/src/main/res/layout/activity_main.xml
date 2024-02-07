@@ -15,8 +15,8 @@
 
     <com.ntd.appid1.appid2.appid3.utils.NTDOtherBottomMenu
         android:id="@+id/bottomMenu"
+        android:paddingBottom="@dimen/_8sdp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="@dimen/_8sdp"
         app:layout_constraintBottom_toBottomOf="parent"/>
 </androidx.constraintlayout.widget.ConstraintLayout>

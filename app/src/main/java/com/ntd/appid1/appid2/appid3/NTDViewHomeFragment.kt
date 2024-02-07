@@ -8,6 +8,7 @@ import com.ntd.appid1.appid2.appid3.databinding.FragmentHomeBinding
 import com.ntd.appid1.appid2.appid3.extensions.onAvoidDoubleClick
 import com.ntd.appid1.appid2.appid3.screens.drum.NTDViewDrumeActivity
 import com.ntd.appid1.appid2.appid3.screens.guitar.NTDViewGuitarActivity
+import com.ntd.appid1.appid2.appid3.screens.howto.NTDViewHowtoActivity
 import com.ntd.appid1.appid2.appid3.screens.piano.NTDViewPianoActivity
 import com.ntd.appid1.appid2.appid3.screens.saxophone.NTDViewSaxophoneActivity
 
@@ -24,6 +25,9 @@ class NTDViewHomeFragment : NTDOtherBaseFragmentAppntd<FragmentHomeBinding>() {
     }
 
     override fun viewListener() {
+        binding.tvHowto.setOnClickListener {
+            startActivity(Intent(requireActivity(), NTDViewHowtoActivity::class.java))
+        }
         binding.layoutPiano.onAvoidDoubleClick {
             startActivity(Intent(requireActivity(), NTDViewPianoActivity::class.java))
         }
