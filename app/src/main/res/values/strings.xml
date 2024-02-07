@@ -69,10 +69,13 @@
     <string name="double_player">2 players</string>
     <string name="style_piano">Style Piano</string>
     <string name="my_tracks">My Tracks</string>
+
     <string name="drum">Drum</string>
     <string name="how_to_use">How to use</string>
     <string name="others">Others</string>
     <string name="press_the_guitar_string_to_start_you_can_choose_chords_when_you_play_guitar">Press the guitar string to start. You can choose chords when you play guitar.</string>
     <string name="tap_drum_or_drum_plates_to_start_you_can_record_videos_and_change_themes">Tap drum or drum plates to start. You can record videos and change themes.</string>
     <string name="press_the_button_on_saxophone_to_start_you_can_record_videos_and_change_themes">"Press the button on saxophone to start. You can record videos and change themes. "</string>
+
+    <string name="edit">Edit</string>
 </resources>

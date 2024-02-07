@@ -3,36 +3,36 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/primary"
-    android:paddingTop="@dimen/_24sdp">
+    android:background="@color/color_F6F7FB">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/clHeader"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="@dimen/_25sdp"
-        android:layout_marginTop="@dimen/_30sdp"
+        android:layout_marginTop="@dimen/_36sdp"
         app:layout_constraintTop_toTopOf="parent">
 
         <ImageView
             android:id="@+id/btnBack"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/ic_back_white"
+            android:src="@drawable/ic_back"
+            android:padding="@dimen/_14sdp"
             app:layout_constraintBottom_toBottomOf="@+id/tvTitle"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="@+id/tvTitle" />
+            app:layout_constraintTop_toTopOf="@+id/tvTitle"
+            app:tint="@color/color_201A25" />
 
         <TextView
             android:id="@+id/tvTitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/_10sdp"
-            android:fontFamily="@font/nunito_medium"
+            android:fontFamily="@font/nunito_bold"
             android:text="@string/policy"
-            android:textColor="@color/white"
+            android:textColor="@color/color_201A25"
             android:textFontWeight="656"
-            android:textSize="22sp"
+            android:textSize="@dimen/_20ssp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toEndOf="@+id/btnBack"
             app:layout_constraintTop_toTopOf="parent" />
@@ -42,7 +42,7 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/_67sdp"
+        android:layout_marginTop="@dimen/_55sdp"
         app:layout_constraintTop_toBottomOf="@+id/clHeader">
 
         <ImageView
@@ -59,11 +59,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/_16sdp"
-            android:fontFamily="@font/nunito_medium"
+            android:fontFamily="@font/nunito_bold"
             android:text="@string/app_name"
             android:textAlignment="center"
-            android:textColor="@color/white"
-            android:textSize="20sp"
+            android:textColor="@color/color_201A25"
+            android:textSize="@dimen/_19ssp"
             app:layout_constraintTop_toBottomOf="@+id/icApp" />
 
         <TextView
@@ -74,8 +74,8 @@
             android:fontFamily="@font/nunito_medium"
             android:text="@string/version"
             android:textAlignment="center"
-            android:textColor="#747474"
-            android:textSize="14sp"
+            android:textColor="#201A25"
+            android:textSize="@dimen/_11ssp"
             app:layout_constraintTop_toBottomOf="@+id/tvAppName" />
 
         <TextView
@@ -85,8 +85,8 @@
             android:layout_marginVertical="@dimen/_21sdp"
             android:fontFamily="@font/nunito_medium"
             android:text="@string/privacy_policy"
-            android:textColor="@color/white"
-            android:textSize="16sp"
+            android:textColor="@color/color_201A25"
+            android:textSize="@dimen/_14ssp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/tvVersion" />
@@ -94,7 +94,7 @@
         <View
             android:layout_width="0dp"
             android:layout_height="1dp"
-            android:background="@color/white"
+            android:background="@color/color_201A25"
             app:layout_constraintEnd_toEndOf="@+id/tvPrivacyPolicy"
             app:layout_constraintStart_toStartOf="@+id/tvPrivacyPolicy"
             app:layout_constraintTop_toBottomOf="@+id/tvPrivacyPolicy" />

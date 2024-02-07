@@ -57,25 +57,25 @@ class NTDOtherBottomMenu : ConstraintLayout {
                 ivHome?.setImageResource(R.drawable.ic_home_selected)
                 tvHome?.setTextColorGradient("#30274E", "#803253")
                 ivRecord?.setImageResource(R.drawable.ic_record_unselected)
-                tvRecord?.setTextColorGradient("#b0b0b0", "#b0b0b0")
+                tvRecord?.setTextColorGradient("#B0B0B0", "#B0B0B0")
                 ivSetting?.setImageResource(R.drawable.ic_setting_unselected)
-                tvSetting?.setTextColorGradient("#b0b0b0", "#b0b0b0")
+                tvSetting?.setTextColorGradient("#B0B0B0", "#B0B0B0")
             }
 
             ScreenTag.TRACK -> {
                 ivHome?.setImageResource(R.drawable.ic_home_unselected)
-                tvHome?.setTextColorGradient("#b0b0b0", "#b0b0b0")
+                tvHome?.setTextColorGradient("#B0B0B0", "#B0B0B0")
                 ivRecord?.setImageResource(R.drawable.ic_record_selected)
                 tvRecord?.setTextColorGradient("#30274E", "#803253")
                 ivSetting?.setImageResource(R.drawable.ic_setting_unselected)
-                tvSetting?.setTextColorGradient("#b0b0b0", "#b0b0b0")
+                tvSetting?.setTextColorGradient("#B0B0B0", "#B0B0B0")
             }
 
             ScreenTag.SETTING -> {
                 ivHome?.setImageResource(R.drawable.ic_home_unselected)
-                tvHome?.setTextColorGradient("#b0b0b0", "#b0b0b0")
+                tvHome?.setTextColorGradient("#B0B0B0", "#B0B0B0")
                 ivRecord?.setImageResource(R.drawable.ic_record_unselected)
-                tvRecord?.setTextColorGradient("#b0b0b0", "#b0b0b0")
+                tvRecord?.setTextColorGradient("#B0B0B0", "#B0B0B0")
                 ivSetting?.setImageResource(R.drawable.ic_setting_selected)
                 tvSetting?.setTextColorGradient("#30274E", "#803253")
             }

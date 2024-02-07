@@ -3,26 +3,25 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/primary"
-    android:paddingTop="@dimen/_24sdp">
+    android:background="@color/color_F6F7FB">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/clHeader"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="@dimen/_25sdp"
-        android:layout_marginTop="@dimen/_30sdp"
+        android:layout_marginHorizontal="@dimen/_14sdp"
+        android:layout_marginTop="@dimen/_50sdp"
         app:layout_constraintTop_toTopOf="parent">
 
         <TextView
             android:id="@+id/tvTitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/nunito_medium"
+            android:fontFamily="@font/nunito_bold"
             android:text="@string/setting"
-            android:textColor="@color/white"
+            android:textColor="@color/color_201A25"
             android:textFontWeight="656"
-            android:textSize="22sp"
+            android:textSize="@dimen/_20ssp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -40,8 +39,8 @@
             android:id="@+id/clLanguage"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginHorizontal="@dimen/_17sdp"
-            android:background="@drawable/custom_bg_setting"
+            android:layout_marginHorizontal="@dimen/_14sdp"
+            android:background="@drawable/radio_flat_unselected"
             android:paddingVertical="@dimen/_16sdp"
             app:layout_constraintTop_toTopOf="parent">
 
@@ -62,8 +61,8 @@
                 android:layout_marginStart="@dimen/_8sdp"
                 android:fontFamily="@font/nunito_medium"
                 android:text="@string/language"
-                android:textColor="@color/white"
-                android:textSize="16sp"
+                android:textColor="@color/color_201A25"
+                android:textSize="@dimen/_14ssp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/ivLanguage"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -74,9 +73,9 @@
             android:id="@+id/clPolicy"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginHorizontal="@dimen/_17sdp"
+            android:layout_marginHorizontal="@dimen/_14sdp"
             android:layout_marginTop="@dimen/_8sdp"
-            android:background="@drawable/custom_bg_setting"
+            android:background="@drawable/radio_flat_unselected"
             android:paddingVertical="@dimen/_16sdp"
             app:layout_constraintTop_toBottomOf="@+id/clLanguage">
 
@@ -97,8 +96,8 @@
                 android:layout_marginStart="@dimen/_8sdp"
                 android:fontFamily="@font/nunito_medium"
                 android:text="@string/policy"
-                android:textColor="@color/white"
-                android:textSize="16sp"
+                android:textColor="@color/color_201A25"
+                android:textSize="@dimen/_14ssp"
                 app:layout_constraintStart_toEndOf="@+id/ivPolicy"
                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -108,9 +107,9 @@
             android:id="@+id/clRate"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginHorizontal="@dimen/_17sdp"
+            android:layout_marginHorizontal="@dimen/_14sdp"
             android:layout_marginTop="@dimen/_8sdp"
-            android:background="@drawable/custom_bg_setting"
+            android:background="@drawable/radio_flat_unselected"
             android:paddingVertical="@dimen/_16sdp"
             app:layout_constraintTop_toBottomOf="@+id/clPolicy">
 
@@ -131,8 +130,8 @@
                 android:layout_marginStart="@dimen/_8sdp"
                 android:fontFamily="@font/nunito_medium"
                 android:text="@string/rate_this_app"
-                android:textColor="@color/white"
-                android:textSize="16sp"
+                android:textColor="@color/color_201A25"
+                android:textSize="@dimen/_14ssp"
                 app:layout_constraintStart_toEndOf="@+id/ivRate"
                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -142,9 +141,9 @@
             android:id="@+id/clShare"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginHorizontal="@dimen/_17sdp"
+            android:layout_marginHorizontal="@dimen/_14sdp"
             android:layout_marginTop="@dimen/_8sdp"
-            android:background="@drawable/custom_bg_setting"
+            android:background="@drawable/radio_flat_unselected"
             android:paddingVertical="@dimen/_16sdp"
             app:layout_constraintTop_toBottomOf="@+id/clRate">
 
@@ -165,8 +164,8 @@
                 android:layout_marginStart="@dimen/_8sdp"
                 android:fontFamily="@font/nunito_medium"
                 android:text="@string/share"
-                android:textColor="@color/white"
-                android:textSize="16sp"
+                android:textColor="@color/color_201A25"
+                android:textSize="@dimen/_14ssp"
                 app:layout_constraintStart_toEndOf="@+id/ivShare"
                 app:layout_constraintTop_toTopOf="parent" />
 
