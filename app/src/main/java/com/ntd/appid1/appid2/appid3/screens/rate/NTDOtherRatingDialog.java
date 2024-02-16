@@ -67,7 +67,7 @@ public class NTDOtherRatingDialog extends NTDOtherBaseDialogAppntd<DialogRatingA
                     binding.imgIcon.setImageResource(R.drawable.ic_rate_5);
                     break;
                 default:
-                    binding.imgIcon.setImageResource(R.drawable.ic_rate_0);
+                    binding.imgIcon.setImageResource(R.drawable.ic_rate_1);
                     break;
             }
         });
@@ -89,16 +89,17 @@ public class NTDOtherRatingDialog extends NTDOtherBaseDialogAppntd<DialogRatingA
             }
 
             if (!isRated) {
-                binding.rtb.setVisibility(View.GONE);
-                binding.btnLater.setVisibility(View.GONE);
-                binding.btnRate.setText(ctx.getString(R.string.ok));
-                binding.tvTitle.setText(ctx.getString(R.string.thank_you));
-                binding.tvContent.setText(getContext().getString(R.string.thank_for_your_feedback));
-                binding.imgIcon.setImageResource(R.drawable.ic_rate_thank_you);
+                binding.loRate.setVisibility(View.GONE);
+                binding.loThanks.setVisibility(View.VISIBLE);
                 isRated = true;
             } else {
                 dismiss();
             }
+        });
+
+
+        binding.cvOk.setOnClickListener(v -> {
+            dismiss();
         });
 
         binding.btnLater.setOnClickListener(view -> onPress.later());

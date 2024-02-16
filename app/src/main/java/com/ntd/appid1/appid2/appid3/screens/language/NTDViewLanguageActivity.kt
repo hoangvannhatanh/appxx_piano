@@ -37,8 +37,8 @@ class NTDViewLanguageActivity : NTDOtherBaseActivityAppntd<LanguageActivityBindi
 
         languageCode = NTDHelperPreferencesHelper.getLanguage()
         listLanguage.add(NTDModelLanguage("English", "en", false, R.drawable.ic_english))
-        listLanguage.add(NTDModelLanguage("Portuguese", "pt", false, R.drawable.ic_portugal))
         listLanguage.add(NTDModelLanguage("French", "fr", false, R.drawable.ic_france))
+        listLanguage.add(NTDModelLanguage("Portuguese", "pt", false, R.drawable.ic_portugal))
         listLanguage.add(NTDModelLanguage("Spanish", "es", false, R.drawable.ic_spanish))
         listLanguage.add(NTDModelLanguage("Hindi", "hi", false, R.drawable.ic_india))
         binding.rvLanguage.layoutManager = LinearLayoutManager(this)
