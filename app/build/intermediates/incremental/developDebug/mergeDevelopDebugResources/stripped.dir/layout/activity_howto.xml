@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f6f7fb"
+    tools:context=".screens.intro.NTDViewIntroActivity">
+
+    <LinearLayout
+        android:id="@+id/header"
+        android:layout_marginTop="@dimen/_36sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <ImageView
+            android:id="@+id/backpress"
+            android:padding="@dimen/_4sdp"
+            android:layout_marginLeft="@dimen/_8sdp"
+            android:layout_width="@dimen/_36sdp"
+            android:layout_height="@dimen/_36sdp"
+            android:src="@drawable/ic_arrow_left"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="How to use"
+            android:gravity="center"
+            android:fontFamily="@font/nunito_medium"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_16sdp"
+            />
+    </LinearLayout>
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView"
+        android:layout_width="match_parent"
+        android:overScrollMode="never"
+        android:scrollbars="none"
+        android:layout_marginVertical="@dimen/_16sdp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/header">
+
+        <LinearLayout
+            android:paddingHorizontal="@dimen/_16sdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/guitar"
+                android:layout_width="@dimen/_80sdp"
+                android:layout_height="@dimen/_34sdp"
+                android:text="@string/guitar"
+                android:gravity="center"
+                android:maxLines="1"
+                android:textSize="@dimen/_12sdp"
+                android:fontFamily="@font/nunito_medium"
+                android:background="@drawable/bg_button_selector"
+                />
+            <TextView
+                android:id="@+id/drum"
+                android:layout_width="@dimen/_80sdp"
+                android:layout_height="@dimen/_34sdp"
+                android:text="@string/drum"
+                android:gravity="center"
+                android:maxLines="1"
+                android:layout_marginHorizontal="@dimen/_8sdp"
+                android:textSize="@dimen/_12sdp"
+                android:fontFamily="@font/nunito_medium"
+                android:background="@drawable/bg_button_selector"
+                />
+            <TextView
+                android:id="@+id/saxaphone"
+                android:layout_width="@dimen/_94sdp"
+                android:layout_height="@dimen/_34sdp"
+                android:text="@string/saxophone"
+                android:maxLines="1"
+                android:gravity="center"
+                android:textSize="@dimen/_12sdp"
+                android:fontFamily="@font/nunito_medium"
+                android:background="@drawable/bg_button_selector"
+                />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/layoutContainer"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_200sdp"
+        android:elevation="@dimen/_2sdp"
+        android:scrollbars="none"
+        app:layout_constraintHeight_percent="0.55"
+        android:layout_marginTop="@dimen/_16sdp"
+        app:layout_constraintTop_toBottomOf="@+id/horizontalScrollView" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/clText"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#f6f7fb"
+        android:paddingTop="@dimen/_20sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/layoutContainer">
+
+        <TextView
+            android:id="@+id/tvContent"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_20sdp"
+            android:fontFamily="@font/nunito_medium"
+            android:text="@string/content_intro_1"
+            android:textAlignment="center"
+            android:textColor="@color/color_201A25"
+            android:textSize="@dimen/_13ssp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/ivDot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_14sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:src="@drawable/bg_dot_1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvContent" />
+
+        <TextView
+            android:id="@+id/textNext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_20sdp"
+            android:fontFamily="@font/nunito_medium"
+            android:text="@string/next"
+            android:textColor="@color/color_AD51B2"
+            android:textFontWeight="790"
+            android:textSize="@dimen/_13ssp"
+            app:layout_constraintBottom_toBottomOf="@id/ivDot"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@id/ivDot" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="one">%d notificación nueva</item>
+    <item quantity="other">%d notificaciones nuevas</item>
+  </plurals>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Ir a inicio"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Desplazarse hacia arriba"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Más opciones"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"Hecho"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"Ver todo"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"Seleccionar una aplicación"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"DESACTIVADO"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"ACTIVADO"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt +"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl +"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"Suprimir"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"Intro"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Función +"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta +"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Mayús +"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"Espacio"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym +"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menú +"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"Buscar…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"Borrar consulta"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"Consulta de búsqueda"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Buscar"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"Enviar consulta"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"Búsqueda por voz"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Compartir con"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Compartir con <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Ocultar"</string>
+    <string name="app_name">Learn Piano</string>
+    <string name="bottomsheet_action_expand_halfway">Desplegar hasta la mitad</string>
+    <string name="cancel">Cancelar</string>
+    <string name="character_counter_content_description">Caracteres introducidos: %1$d de %2$d</string>
+    <string name="character_counter_overflowed_content_description">Límite de caracteres superado (%1$d de %2$d)</string>
+    <string name="clear_text_end_icon_content_description">Borrar texto</string>
+    <string name="close">Cerca</string>
+    <string name="common_google_play_services_unknown_issue">La aplicación %1$s tiene problemas con los Servicios de Google Play. Vuelve a intentarlo.</string>
+    <string name="content_delete_record">¿Quieres eliminar estos registros? Este proceso no se puede deshacer.</string>
+    <string name="content_intro_1">Sumérjase en el sonido auténtico y la sensación de un piano de cola</string>
+    <string name="content_intro_2">Experimente la alegría de tocar sin la necesidad de instrumentos físicos.</string>
+    <string name="content_intro_3">La aplicación cuenta con sonidos de instrumentos realistas, proporcionando una experiencia de reproducción auténtica</string>
+    <string name="content_rate">Danos una calificación rápida para que sepamos si te gusta.</string>
+    <string name="delete">Eliminar</string>
+    <string name="delete_record">¿Eliminar el registro?</string>
+    <string name="do_you_like_learn_piano">¿Te gusta aprender piano?</string>
+    <string name="double_key">2 llaves</string>
+    <string name="double_player">2 jugadores</string>
+    <string name="drum_set">Batería</string>
+    <string name="edit_name">¿Editar nombre?</string>
+    <string name="error_icon_content_description">Error</string>
+    <string name="explore_the_piano_s_enchanting_world">Explore el mundo encantador del piano</string>
+    <string name="exposed_dropdown_menu_content_description">Mostrar menú desplegable</string>
+    <string name="file_name">Nombre del archivo</string>
+    <string name="go">Ir</string>
+    <string name="go_to_setting">Ir a Configuración</string>
+    <string name="guitar">Guitarra</string>
+    <string name="hint_save_record">Ej: grabación 1</string>
+    <string name="home">Hogar</string>
+    <string name="icon_content_description">Icono del cuadro de diálogo</string>
+    <string name="item_view_role_description">Pestaña</string>
+    <string name="language">Idioma</string>
+    <string name="learn_piano">Learn Piano</string>
+    <string name="loading_piano">Cargando piano…</string>
+    <string name="material_clock_toggle_content_description">Selecciona AM o PM</string>
+    <string name="material_hour_selection">Seleccionar hora</string>
+    <string name="material_hour_suffix">%1$s en punto</string>
+    <string name="material_minute_selection">Seleccionar minutos</string>
+    <string name="material_minute_suffix">%1$s minutos</string>
+    <string name="material_timepicker_am">A.M.</string>
+    <string name="material_timepicker_clock_mode_description">Cambia al modo de reloj para escribir la hora.</string>
+    <string name="material_timepicker_hour">Hora</string>
+    <string name="material_timepicker_minute">Minuto</string>
+    <string name="material_timepicker_pm">P.M.</string>
+    <string name="material_timepicker_select_time">Seleccionar la hora</string>
+    <string name="material_timepicker_text_input_mode_description">Cambia al modo de introducción de texto para escribir la hora.</string>
+    <string name="message_must_not_be_null">¡Este campo no puede estar vacío!</string>
+    <string name="message_this_is_sample">Esto es un ejemplo</string>
+    <string name="mtrl_badge_numberless_content_description">Notificación nueva</string>
+    <string name="mtrl_chip_close_icon_content_description">Retirar %1$s</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">Más de %1$d notificaciones nuevas</string>
+    <string name="mtrl_picker_a11y_next_month">Cambiar al mes siguiente</string>
+    <string name="mtrl_picker_a11y_prev_month">Cambiar al mes anterior</string>
+    <string name="mtrl_picker_announce_current_selection">Selección actual: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Selecciona una fecha</string>
+    <string name="mtrl_picker_date_header_unselected">Fecha seleccionada</string>
+    <string name="mtrl_picker_day_of_week_column_header">Columna de días: %1$s</string>
+    <string name="mtrl_picker_invalid_format">Formato no válido.</string>
+    <string name="mtrl_picker_invalid_format_example">Ejemplo: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Usar: %1$s</string>
+    <string name="mtrl_picker_invalid_range">El periodo no es válido.</string>
+    <string name="mtrl_picker_navigate_to_year_description">Ir al año %1$s</string>
+    <string name="mtrl_picker_out_of_range">Fuera del periodo válido: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Fecha de inicio–%1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s–Fecha de finalización</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">Selecciona un periodo</string>
+    <string name="mtrl_picker_range_header_unselected">Fecha de inicio–Fecha de finalización</string>
+    <string name="mtrl_picker_save">Guardar</string>
+    <string name="mtrl_picker_text_input_date_hint">Fecha</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">Fecha de finalización</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Fecha de inicio</string>
+    <string name="mtrl_picker_text_input_day_abbr">d</string>
+    <string name="mtrl_picker_text_input_month_abbr">m</string>
+    <string name="mtrl_picker_text_input_year_abbr">a</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Cambiar al modo de introducción Calendario</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Toca para seleccionar un día</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Cambiar al modo de introducción Texto</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Toca para seleccionar un año</string>
+    <string msgid="6301633601645100427" name="nav_app_bar_navigate_up_description">"Desplazarse hacia arriba"</string>
+    <string msgid="7456070600745802113" name="nav_app_bar_open_drawer_description">"Abrir panel de navegación"</string>
+    <string name="next">Siguiente</string>
+    <string name="no_later">No más tarde</string>
+    <string name="no_record_in_here">No hay registro aquí</string>
+    <string name="noti_need_permission">Necesitas habilitar el permiso</string>
+    <string name="notification_access">Acceso a la notificación</string>
+    <string name="ok">DE ACUERDO</string>
+    <string name="password_toggle_content_description">Mostrar contraseña</string>
+    <string name="permission">Permiso</string>
+    <string name="piano">Piano</string>
+    <string name="play_list">Lista de reproducción</string>
+    <string name="please_feedback">Por favor deje un comentario</string>
+    <string name="policy">Política</string>
+    <string name="privacy_policy">Política de Privacidad</string>
+    <string name="rate_this_app">Califica esta aplicación</string>
+    <string name="rate_us">Nos califica</string>
+    <string name="record">Grabar</string>
+    <string name="record_file_audio">Grabar audio</string>
+    <string name="recording_saved">Grabación guardada!</string>
+    <string name="save">Guardar</string>
+    <string name="saxophone">Saxofón</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"Buscar"</string>
+    <string name="setting">Configuración</string>
+    <string name="share">Compartir</string>
+    <string name="share_to">Compartir en</string>
+    <string name="show_note">Nota de mostrar</string>
+    <string name="speed">Velocidad</string>
+    <string name="start">Iniciar</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="storage">Almacenamiento</string>
+    <string name="str_permission_message_denied">Necesitas otorgar todo el permiso</string>
+    <string name="string_allow_translate">LearnPiano necesita acceso al almacenamiento del dispositivo y permiso para grabar audio.</string>
+    <string name="string_allow_translate_1">Learn Piano requiere permiso para usar el audio de archivo de almacenamiento y grabación</string>
+    <string name="style_piano">Piano de estilo</string>
+    <string name="thank_for_your_feedback">Gracias por sus comentarios.</string>
+    <string name="thank_you">¡Gracias!</string>
+    <string name="tite_splash">Esta acción puede incluir anuncios</string>
+    <string name="title_intro_1">Experiencia de piano realista</string>
+    <string name="title_intro_2">Instrumentos virtuales</string>
+    <string name="title_intro_3">Calidad de sonido realista</string>
+    <string name="title_save_record">¿Le gustaría guardar su grabación?</string>
+    <string name="todo">Por hacer</string>
+    <string name="version">Versión</string>
+    <string name="volume">Volumen</string>
+</resources>

@@ -1,0 +1,437 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.ntd.appid1.appid2.appid3.dev"
+4    android:versionCode="100"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+8-->C:\Users\pc\AndroidStudioProjects\appxx_piano\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->C:\Users\pc\AndroidStudioProjects\appxx_piano\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+11-->C:\Users\pc\AndroidStudioProjects\appxx_piano\app\src\main\AndroidManifest.xml:5:5-79
+11-->C:\Users\pc\AndroidStudioProjects\appxx_piano\app\src\main\AndroidManifest.xml:5:22-76
+12    <uses-permission android:name="android.permission.WAKE_LOCK" />
+12-->C:\Users\pc\AndroidStudioProjects\appxx_piano\app\src\main\AndroidManifest.xml:6:5-68
+12-->C:\Users\pc\AndroidStudioProjects\appxx_piano\app\src\main\AndroidManifest.xml:6:22-65
+13    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+13-->C:\Users\pc\AndroidStudioProjects\appxx_piano\app\src\main\AndroidManifest.xml:7:5-77
+13-->C:\Users\pc\AndroidStudioProjects\appxx_piano\app\src\main\AndroidManifest.xml:7:22-74
+14    <uses-permission
+14-->C:\Users\pc\AndroidStudioProjects\appxx_piano\app\src\main\AndroidManifest.xml:8:5-10:38
+15        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+15-->C:\Users\pc\AndroidStudioProjects\appxx_piano\app\src\main\AndroidManifest.xml:9:9-65
+16        android:maxSdkVersion="32" />
+16-->C:\Users\pc\AndroidStudioProjects\appxx_piano\app\src\main\AndroidManifest.xml:10:9-35
+17    <uses-permission
+17-->C:\Users\pc\AndroidStudioProjects\appxx_piano\app\src\main\AndroidManifest.xml:11:5-13:38
+18        android:name="android.permission.READ_EXTERNAL_STORAGE"
+18-->C:\Users\pc\AndroidStudioProjects\appxx_piano\app\src\main\AndroidManifest.xml:12:9-64
+19        android:maxSdkVersion="32" />
+19-->C:\Users\pc\AndroidStudioProjects\appxx_piano\app\src\main\AndroidManifest.xml:13:9-35
+20    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+20-->C:\Users\pc\AndroidStudioProjects\appxx_piano\app\src\main\AndroidManifest.xml:14:5-71
+20-->C:\Users\pc\AndroidStudioProjects\appxx_piano\app\src\main\AndroidManifest.xml:14:22-68
+21    <uses-permission android:name="android.permission.CAPTURE_AUDIO_OUTPUT" />
+21-->C:\Users\pc\AndroidStudioProjects\appxx_piano\app\src\main\AndroidManifest.xml:15:5-17:47
+21-->C:\Users\pc\AndroidStudioProjects\appxx_piano\app\src\main\AndroidManifest.xml:16:9-63
+22    <uses-permission android:name="android.permission.INTERNET" />
+22-->[com.google.android.gms:play-services-measurement-api:21.3.0] C:\Users\pc\.gradle\caches\transforms-3\1b34a90c591b4e6875c6b220911c1345\transformed\jetified-play-services-measurement-api-21.3.0\AndroidManifest.xml:22:5-67
+22-->[com.google.android.gms:play-services-measurement-api:21.3.0] C:\Users\pc\.gradle\caches\transforms-3\1b34a90c591b4e6875c6b220911c1345\transformed\jetified-play-services-measurement-api-21.3.0\AndroidManifest.xml:22:22-64
+23    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+23-->[com.google.android.gms:play-services-measurement-api:21.3.0] C:\Users\pc\.gradle\caches\transforms-3\1b34a90c591b4e6875c6b220911c1345\transformed\jetified-play-services-measurement-api-21.3.0\AndroidManifest.xml:25:5-79
+23-->[com.google.android.gms:play-services-measurement-api:21.3.0] C:\Users\pc\.gradle\caches\transforms-3\1b34a90c591b4e6875c6b220911c1345\transformed\jetified-play-services-measurement-api-21.3.0\AndroidManifest.xml:25:22-76
+24
+25    <permission
+25-->[androidx.core:core:1.9.0] C:\Users\pc\.gradle\caches\transforms-3\c2d5dc490cc13f17447cdb29ee047da5\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+26        android:name="com.ntd.appid1.appid2.appid3.dev.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+26-->[androidx.core:core:1.9.0] C:\Users\pc\.gradle\caches\transforms-3\c2d5dc490cc13f17447cdb29ee047da5\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+27        android:protectionLevel="signature" />
+27-->[androidx.core:core:1.9.0] C:\Users\pc\.gradle\caches\transforms-3\c2d5dc490cc13f17447cdb29ee047da5\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+28
+29    <uses-permission android:name="com.ntd.appid1.appid2.appid3.dev.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+29-->[androidx.core:core:1.9.0] C:\Users\pc\.gradle\caches\transforms-3\c2d5dc490cc13f17447cdb29ee047da5\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+29-->[androidx.core:core:1.9.0] C:\Users\pc\.gradle\caches\transforms-3\c2d5dc490cc13f17447cdb29ee047da5\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+30    <uses-permission android:name="android.permission.REORDER_TASKS" />
+30-->[androidx.test:core:1.5.0] C:\Users\pc\.gradle\caches\transforms-3\c92d25b92957a896b6ffac2fd1f8cdd5\transformed\jetified-core-1.5.0\AndroidManifest.xml:24:5-72
+30-->[androidx.test:core:1.5.0] C:\Users\pc\.gradle\caches\transforms-3\c92d25b92957a896b6ffac2fd1f8cdd5\transformed\jetified-core-1.5.0\AndroidManifest.xml:24:22-69
+31
+32    <queries>
+32-->[androidx.test:runner:1.5.2] C:\Users\pc\.gradle\caches\transforms-3\c9575fdf51b8056a6fae74654c90b3f0\transformed\runner-1.5.2\AndroidManifest.xml:24:5-28:15
+33        <package android:name="androidx.test.orchestrator" />
+33-->[androidx.test:runner:1.5.2] C:\Users\pc\.gradle\caches\transforms-3\c9575fdf51b8056a6fae74654c90b3f0\transformed\runner-1.5.2\AndroidManifest.xml:25:9-62
+33-->[androidx.test:runner:1.5.2] C:\Users\pc\.gradle\caches\transforms-3\c9575fdf51b8056a6fae74654c90b3f0\transformed\runner-1.5.2\AndroidManifest.xml:25:18-59
+34        <package android:name="androidx.test.services" />
+34-->[androidx.test:runner:1.5.2] C:\Users\pc\.gradle\caches\transforms-3\c9575fdf51b8056a6fae74654c90b3f0\transformed\runner-1.5.2\AndroidManifest.xml:26:9-58
+34-->[androidx.test:runner:1.5.2] C:\Users\pc\.gradle\caches\transforms-3\c9575fdf51b8056a6fae74654c90b3f0\transformed\runner-1.5.2\AndroidManifest.xml:26:18-55
+35        <package android:name="com.google.android.apps.common.testing.services" />
+35-->[androidx.test:runner:1.5.2] C:\Users\pc\.gradle\caches\transforms-3\c9575fdf51b8056a6fae74654c90b3f0\transformed\runner-1.5.2\AndroidManifest.xml:27:9-83
+35-->[androidx.test:runner:1.5.2] C:\Users\pc\.gradle\caches\transforms-3\c9575fdf51b8056a6fae74654c90b3f0\transformed\runner-1.5.2\AndroidManifest.xml:27:18-80
+36    </queries> <!-- Permission will be merged into the manifest of the hosting app. -->
+37    <!-- Is required to launch foreground extraction service for targetSdkVersion 28+. -->
+38    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+38-->[com.google.android.play:core:1.10.3] C:\Users\pc\.gradle\caches\transforms-3\f1474d72d67c813ff9ba38e4c8e4f4be\transformed\jetified-core-1.10.3\AndroidManifest.xml:13:5-77
+38-->[com.google.android.play:core:1.10.3] C:\Users\pc\.gradle\caches\transforms-3\f1474d72d67c813ff9ba38e4c8e4f4be\transformed\jetified-core-1.10.3\AndroidManifest.xml:13:22-74
+39
+40    <application
+40-->C:\Users\pc\AndroidStudioProjects\appxx_piano\app\src\main\AndroidManifest.xml:19:5-114:19
+41        android:name="com.ntd.appid1.appid2.appid3.application.MyApplication"
+41-->C:\Users\pc\AndroidStudioProjects\appxx_piano\app\src\main\AndroidManifest.xml:20:9-50
+42        android:allowBackup="false"
+42-->C:\Users\pc\AndroidStudioProjects\appxx_piano\app\src\main\AndroidManifest.xml:21:9-36
+43        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+43-->[androidx.core:core:1.9.0] C:\Users\pc\.gradle\caches\transforms-3\c2d5dc490cc13f17447cdb29ee047da5\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+44        android:dataExtractionRules="@xml/data_extraction_rules"
+44-->C:\Users\pc\AndroidStudioProjects\appxx_piano\app\src\main\AndroidManifest.xml:22:9-65
+45        android:debuggable="true"
+46        android:extractNativeLibs="false"
+47        android:fullBackupContent="@xml/backup_rules"
+47-->C:\Users\pc\AndroidStudioProjects\appxx_piano\app\src\main\AndroidManifest.xml:23:9-54
+48        android:hardwareAccelerated="false"
+48-->C:\Users\pc\AndroidStudioProjects\appxx_piano\app\src\main\AndroidManifest.xml:24:9-44
+49        android:icon="@mipmap/ic_launcher"
+49-->C:\Users\pc\AndroidStudioProjects\appxx_piano\app\src\main\AndroidManifest.xml:25:9-43
+50        android:label="@string/app_name"
+50-->C:\Users\pc\AndroidStudioProjects\appxx_piano\app\src\main\AndroidManifest.xml:26:9-41
+51        android:requestLegacyExternalStorage="true"
+51-->C:\Users\pc\AndroidStudioProjects\appxx_piano\app\src\main\AndroidManifest.xml:27:9-52
+52        android:roundIcon="@mipmap/ic_launcher_round"
+52-->C:\Users\pc\AndroidStudioProjects\appxx_piano\app\src\main\AndroidManifest.xml:28:9-54
+53        android:supportsRtl="true"
+53-->C:\Users\pc\AndroidStudioProjects\appxx_piano\app\src\main\AndroidManifest.xml:29:9-35
+54        android:testOnly="true"
+55        android:theme="@style/Theme.LearnPiano"
+55-->C:\Users\pc\AndroidStudioProjects\appxx_piano\app\src\main\AndroidManifest.xml:30:9-48
+56        android:usesCleartextTraffic="true" >
+56-->C:\Users\pc\AndroidStudioProjects\appxx_piano\app\src\main\AndroidManifest.xml:31:9-44
+57        <activity
+57-->C:\Users\pc\AndroidStudioProjects\appxx_piano\app\src\main\AndroidManifest.xml:34:9-37:53
+58            android:name="com.ntd.appid1.appid2.appid3.screens.piano.NTDViewPianoTwoPlayerActivity"
+58-->C:\Users\pc\AndroidStudioProjects\appxx_piano\app\src\main\AndroidManifest.xml:35:13-72
+59            android:exported="false"
+59-->C:\Users\pc\AndroidStudioProjects\appxx_piano\app\src\main\AndroidManifest.xml:36:13-37
+60            android:screenOrientation="landscape" />
+60-->C:\Users\pc\AndroidStudioProjects\appxx_piano\app\src\main\AndroidManifest.xml:37:13-50
+61        <activity
+61-->C:\Users\pc\AndroidStudioProjects\appxx_piano\app\src\main\AndroidManifest.xml:38:9-41:52
+62            android:name="com.ntd.appid1.appid2.appid3.screens.howto.NTDViewHowtoActivity"
+62-->C:\Users\pc\AndroidStudioProjects\appxx_piano\app\src\main\AndroidManifest.xml:39:13-63
+63            android:exported="false"
+63-->C:\Users\pc\AndroidStudioProjects\appxx_piano\app\src\main\AndroidManifest.xml:40:13-37
+64            android:screenOrientation="portrait" />
+64-->C:\Users\pc\AndroidStudioProjects\appxx_piano\app\src\main\AndroidManifest.xml:41:13-49
+65        <activity
+65-->C:\Users\pc\AndroidStudioProjects\appxx_piano\app\src\main\AndroidManifest.xml:42:9-45:53
+66            android:name="com.ntd.appid1.appid2.appid3.screens.drum.NTDViewStyleDrumActivity"
+66-->C:\Users\pc\AndroidStudioProjects\appxx_piano\app\src\main\AndroidManifest.xml:43:13-66
+67            android:exported="false"
+67-->C:\Users\pc\AndroidStudioProjects\appxx_piano\app\src\main\AndroidManifest.xml:44:13-37
+68            android:screenOrientation="landscape" />
+68-->C:\Users\pc\AndroidStudioProjects\appxx_piano\app\src\main\AndroidManifest.xml:45:13-50
+69        <activity
+69-->C:\Users\pc\AndroidStudioProjects\appxx_piano\app\src\main\AndroidManifest.xml:46:9-49:53
+70            android:name="com.ntd.appid1.appid2.appid3.screens.piano.piano_style.NTDViewPianoStyleActivity"
+70-->C:\Users\pc\AndroidStudioProjects\appxx_piano\app\src\main\AndroidManifest.xml:47:13-80
+71            android:exported="false"
+71-->C:\Users\pc\AndroidStudioProjects\appxx_piano\app\src\main\AndroidManifest.xml:48:13-37
+72            android:screenOrientation="landscape" />
+72-->C:\Users\pc\AndroidStudioProjects\appxx_piano\app\src\main\AndroidManifest.xml:49:13-50
+73        <activity
+73-->C:\Users\pc\AndroidStudioProjects\appxx_piano\app\src\main\AndroidManifest.xml:50:9-53:52
+74            android:name="com.ntd.appid1.appid2.appid3.screens.permission.NTDViewPermissionActivity"
+74-->C:\Users\pc\AndroidStudioProjects\appxx_piano\app\src\main\AndroidManifest.xml:51:13-73
+75            android:exported="false"
+75-->C:\Users\pc\AndroidStudioProjects\appxx_piano\app\src\main\AndroidManifest.xml:52:13-37
+76            android:screenOrientation="portrait" />
+76-->C:\Users\pc\AndroidStudioProjects\appxx_piano\app\src\main\AndroidManifest.xml:53:13-49
+77        <activity
+77-->C:\Users\pc\AndroidStudioProjects\appxx_piano\app\src\main\AndroidManifest.xml:54:9-57:52
+78            android:name="com.ntd.appid1.appid2.appid3.NTDViewMainActivity"
+78-->C:\Users\pc\AndroidStudioProjects\appxx_piano\app\src\main\AndroidManifest.xml:55:13-48
+79            android:exported="false"
+79-->C:\Users\pc\AndroidStudioProjects\appxx_piano\app\src\main\AndroidManifest.xml:56:13-37
+80            android:screenOrientation="portrait" />
+80-->C:\Users\pc\AndroidStudioProjects\appxx_piano\app\src\main\AndroidManifest.xml:57:13-49
+81        <activity
+81-->C:\Users\pc\AndroidStudioProjects\appxx_piano\app\src\main\AndroidManifest.xml:58:9-61:53
+82            android:name="com.ntd.appid1.appid2.appid3.screens.piano.NTDViewPianoActivity"
+82-->C:\Users\pc\AndroidStudioProjects\appxx_piano\app\src\main\AndroidManifest.xml:59:13-63
+83            android:exported="true"
+83-->C:\Users\pc\AndroidStudioProjects\appxx_piano\app\src\main\AndroidManifest.xml:60:13-36
+84            android:screenOrientation="landscape" />
+84-->C:\Users\pc\AndroidStudioProjects\appxx_piano\app\src\main\AndroidManifest.xml:61:13-50
+85        <activity
+85-->C:\Users\pc\AndroidStudioProjects\appxx_piano\app\src\main\AndroidManifest.xml:62:9-65:52
+86            android:name="com.ntd.appid1.appid2.appid3.screens.language.NTDViewLanguageActivity"
+86-->C:\Users\pc\AndroidStudioProjects\appxx_piano\app\src\main\AndroidManifest.xml:63:13-69
+87            android:exported="false"
+87-->C:\Users\pc\AndroidStudioProjects\appxx_piano\app\src\main\AndroidManifest.xml:64:13-37
+88            android:screenOrientation="portrait" />
+88-->C:\Users\pc\AndroidStudioProjects\appxx_piano\app\src\main\AndroidManifest.xml:65:13-49
+89        <activity
+89-->C:\Users\pc\AndroidStudioProjects\appxx_piano\app\src\main\AndroidManifest.xml:66:9-69:53
+90            android:name="com.ntd.appid1.appid2.appid3.screens.piano.NTDViewDoubleKeyActivity"
+90-->C:\Users\pc\AndroidStudioProjects\appxx_piano\app\src\main\AndroidManifest.xml:67:13-67
+91            android:exported="false"
+91-->C:\Users\pc\AndroidStudioProjects\appxx_piano\app\src\main\AndroidManifest.xml:68:13-37
+92            android:screenOrientation="landscape" />
+92-->C:\Users\pc\AndroidStudioProjects\appxx_piano\app\src\main\AndroidManifest.xml:69:13-50
+93        <activity
+93-->C:\Users\pc\AndroidStudioProjects\appxx_piano\app\src\main\AndroidManifest.xml:70:9-73:52
+94            android:name="com.ntd.appid1.appid2.appid3.screens.policy.NTDViewPolicyActivity"
+94-->C:\Users\pc\AndroidStudioProjects\appxx_piano\app\src\main\AndroidManifest.xml:71:13-65
+95            android:exported="false"
+95-->C:\Users\pc\AndroidStudioProjects\appxx_piano\app\src\main\AndroidManifest.xml:72:13-37
+96            android:screenOrientation="portrait" />
+96-->C:\Users\pc\AndroidStudioProjects\appxx_piano\app\src\main\AndroidManifest.xml:73:13-49
+97        <activity
+97-->C:\Users\pc\AndroidStudioProjects\appxx_piano\app\src\main\AndroidManifest.xml:74:9-83:20
+98            android:name="com.ntd.appid1.appid2.appid3.screens.splash.NTDViewSplashActivity"
+98-->C:\Users\pc\AndroidStudioProjects\appxx_piano\app\src\main\AndroidManifest.xml:75:13-65
+99            android:exported="true"
+99-->C:\Users\pc\AndroidStudioProjects\appxx_piano\app\src\main\AndroidManifest.xml:76:13-36
+100            android:screenOrientation="portrait" >
+100-->C:\Users\pc\AndroidStudioProjects\appxx_piano\app\src\main\AndroidManifest.xml:77:13-49
+101            <intent-filter>
+101-->C:\Users\pc\AndroidStudioProjects\appxx_piano\app\src\main\AndroidManifest.xml:78:13-82:29
+102                <action android:name="android.intent.action.MAIN" />
+102-->C:\Users\pc\AndroidStudioProjects\appxx_piano\app\src\main\AndroidManifest.xml:79:17-69
+102-->C:\Users\pc\AndroidStudioProjects\appxx_piano\app\src\main\AndroidManifest.xml:79:25-66
+103
+104                <category android:name="android.intent.category.LAUNCHER" />
+104-->C:\Users\pc\AndroidStudioProjects\appxx_piano\app\src\main\AndroidManifest.xml:81:17-77
+104-->C:\Users\pc\AndroidStudioProjects\appxx_piano\app\src\main\AndroidManifest.xml:81:27-74
+105            </intent-filter>
+106        </activity>
+107        <activity
+107-->C:\Users\pc\AndroidStudioProjects\appxx_piano\app\src\main\AndroidManifest.xml:84:9-87:52
+108            android:name="com.ntd.appid1.appid2.appid3.screens.intro.NTDViewIntroActivity"
+108-->C:\Users\pc\AndroidStudioProjects\appxx_piano\app\src\main\AndroidManifest.xml:85:13-63
+109            android:exported="true"
+109-->C:\Users\pc\AndroidStudioProjects\appxx_piano\app\src\main\AndroidManifest.xml:86:13-36
+110            android:screenOrientation="portrait" />
+110-->C:\Users\pc\AndroidStudioProjects\appxx_piano\app\src\main\AndroidManifest.xml:87:13-49
+111        <activity
+111-->C:\Users\pc\AndroidStudioProjects\appxx_piano\app\src\main\AndroidManifest.xml:88:9-91:53
+112            android:name="com.ntd.appid1.appid2.appid3.screens.guitar.NTDViewGuitarActivity"
+112-->C:\Users\pc\AndroidStudioProjects\appxx_piano\app\src\main\AndroidManifest.xml:89:13-65
+113            android:exported="true"
+113-->C:\Users\pc\AndroidStudioProjects\appxx_piano\app\src\main\AndroidManifest.xml:90:13-36
+114            android:screenOrientation="landscape" />
+114-->C:\Users\pc\AndroidStudioProjects\appxx_piano\app\src\main\AndroidManifest.xml:91:13-50
+115        <activity
+115-->C:\Users\pc\AndroidStudioProjects\appxx_piano\app\src\main\AndroidManifest.xml:92:9-95:53
+116            android:name="com.ntd.appid1.appid2.appid3.screens.drum.NTDViewDrumeActivity"
+116-->C:\Users\pc\AndroidStudioProjects\appxx_piano\app\src\main\AndroidManifest.xml:93:13-62
+117            android:exported="true"
+117-->C:\Users\pc\AndroidStudioProjects\appxx_piano\app\src\main\AndroidManifest.xml:94:13-36
+118            android:screenOrientation="landscape" />
+118-->C:\Users\pc\AndroidStudioProjects\appxx_piano\app\src\main\AndroidManifest.xml:95:13-50
+119        <activity
+119-->C:\Users\pc\AndroidStudioProjects\appxx_piano\app\src\main\AndroidManifest.xml:96:9-99:52
+120            android:name="com.ntd.appid1.appid2.appid3.screens.record.NTDViewRecordDetail"
+120-->C:\Users\pc\AndroidStudioProjects\appxx_piano\app\src\main\AndroidManifest.xml:97:13-63
+121            android:exported="true"
+121-->C:\Users\pc\AndroidStudioProjects\appxx_piano\app\src\main\AndroidManifest.xml:98:13-36
+122            android:screenOrientation="portrait" />
+122-->C:\Users\pc\AndroidStudioProjects\appxx_piano\app\src\main\AndroidManifest.xml:99:13-49
+123        <activity
+123-->C:\Users\pc\AndroidStudioProjects\appxx_piano\app\src\main\AndroidManifest.xml:100:9-103:52
+124            android:name="com.ntd.appid1.appid2.appid3.screens.saxophone.NTDViewSaxophoneActivity"
+124-->C:\Users\pc\AndroidStudioProjects\appxx_piano\app\src\main\AndroidManifest.xml:101:13-71
+125            android:exported="true"
+125-->C:\Users\pc\AndroidStudioProjects\appxx_piano\app\src\main\AndroidManifest.xml:102:13-36
+126            android:screenOrientation="portrait" />
+126-->C:\Users\pc\AndroidStudioProjects\appxx_piano\app\src\main\AndroidManifest.xml:103:13-49
+127
+128        <provider
+128-->C:\Users\pc\AndroidStudioProjects\appxx_piano\app\src\main\AndroidManifest.xml:105:9-113:20
+129            android:name="androidx.core.content.FileProvider"
+129-->C:\Users\pc\AndroidStudioProjects\appxx_piano\app\src\main\AndroidManifest.xml:106:13-62
+130            android:authorities="com.ntd.appid1.appid2.appid3.contentprovider"
+130-->C:\Users\pc\AndroidStudioProjects\appxx_piano\app\src\main\AndroidManifest.xml:107:13-79
+131            android:exported="false"
+131-->C:\Users\pc\AndroidStudioProjects\appxx_piano\app\src\main\AndroidManifest.xml:108:13-37
+132            android:grantUriPermissions="true" >
+132-->C:\Users\pc\AndroidStudioProjects\appxx_piano\app\src\main\AndroidManifest.xml:109:13-47
+133            <meta-data
+133-->C:\Users\pc\AndroidStudioProjects\appxx_piano\app\src\main\AndroidManifest.xml:110:13-112:58
+134                android:name="android.support.FILE_PROVIDER_PATHS"
+134-->C:\Users\pc\AndroidStudioProjects\appxx_piano\app\src\main\AndroidManifest.xml:111:17-67
+135                android:resource="@xml/provider_paths" />
+135-->C:\Users\pc\AndroidStudioProjects\appxx_piano\app\src\main\AndroidManifest.xml:112:17-55
+136        </provider>
+137
+138        <service
+138-->[com.google.android.gms:play-services-measurement-api:21.3.0] C:\Users\pc\.gradle\caches\transforms-3\1b34a90c591b4e6875c6b220911c1345\transformed\jetified-play-services-measurement-api-21.3.0\AndroidManifest.xml:28:9-34:19
+139            android:name="com.google.firebase.components.ComponentDiscoveryService"
+139-->[com.google.android.gms:play-services-measurement-api:21.3.0] C:\Users\pc\.gradle\caches\transforms-3\1b34a90c591b4e6875c6b220911c1345\transformed\jetified-play-services-measurement-api-21.3.0\AndroidManifest.xml:29:13-84
+140            android:directBootAware="true"
+140-->[com.google.firebase:firebase-common:20.2.0] C:\Users\pc\.gradle\caches\transforms-3\b3c2951d6a49ce897db179826e3358fe\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:34:13-43
+141            android:exported="false" >
+141-->[com.google.android.gms:play-services-measurement-api:21.3.0] C:\Users\pc\.gradle\caches\transforms-3\1b34a90c591b4e6875c6b220911c1345\transformed\jetified-play-services-measurement-api-21.3.0\AndroidManifest.xml:30:13-37
+142            <meta-data
+142-->[com.google.android.gms:play-services-measurement-api:21.3.0] C:\Users\pc\.gradle\caches\transforms-3\1b34a90c591b4e6875c6b220911c1345\transformed\jetified-play-services-measurement-api-21.3.0\AndroidManifest.xml:31:13-33:85
+143                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+143-->[com.google.android.gms:play-services-measurement-api:21.3.0] C:\Users\pc\.gradle\caches\transforms-3\1b34a90c591b4e6875c6b220911c1345\transformed\jetified-play-services-measurement-api-21.3.0\AndroidManifest.xml:32:17-139
+144                android:value="com.google.firebase.components.ComponentRegistrar" />
+144-->[com.google.android.gms:play-services-measurement-api:21.3.0] C:\Users\pc\.gradle\caches\transforms-3\1b34a90c591b4e6875c6b220911c1345\transformed\jetified-play-services-measurement-api-21.3.0\AndroidManifest.xml:33:17-82
+145            <meta-data
+145-->[com.google.firebase:firebase-installations:17.0.1] C:\Users\pc\.gradle\caches\transforms-3\e5d16775d291469ca3b8903f6ddbe5d7\transformed\jetified-firebase-installations-17.0.1\AndroidManifest.xml:18:13-20:85
+146                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+146-->[com.google.firebase:firebase-installations:17.0.1] C:\Users\pc\.gradle\caches\transforms-3\e5d16775d291469ca3b8903f6ddbe5d7\transformed\jetified-firebase-installations-17.0.1\AndroidManifest.xml:19:17-127
+147                android:value="com.google.firebase.components.ComponentRegistrar" />
+147-->[com.google.firebase:firebase-installations:17.0.1] C:\Users\pc\.gradle\caches\transforms-3\e5d16775d291469ca3b8903f6ddbe5d7\transformed\jetified-firebase-installations-17.0.1\AndroidManifest.xml:20:17-82
+148        </service>
+149
+150        <provider
+150-->[com.google.firebase:firebase-common:20.2.0] C:\Users\pc\.gradle\caches\transforms-3\b3c2951d6a49ce897db179826e3358fe\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:25:9-30:39
+151            android:name="com.google.firebase.provider.FirebaseInitProvider"
+151-->[com.google.firebase:firebase-common:20.2.0] C:\Users\pc\.gradle\caches\transforms-3\b3c2951d6a49ce897db179826e3358fe\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:26:13-77
+152            android:authorities="com.ntd.appid1.appid2.appid3.dev.firebaseinitprovider"
+152-->[com.google.firebase:firebase-common:20.2.0] C:\Users\pc\.gradle\caches\transforms-3\b3c2951d6a49ce897db179826e3358fe\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:27:13-72
+153            android:directBootAware="true"
+153-->[com.google.firebase:firebase-common:20.2.0] C:\Users\pc\.gradle\caches\transforms-3\b3c2951d6a49ce897db179826e3358fe\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:28:13-43
+154            android:exported="false"
+154-->[com.google.firebase:firebase-common:20.2.0] C:\Users\pc\.gradle\caches\transforms-3\b3c2951d6a49ce897db179826e3358fe\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:29:13-37
+155            android:initOrder="100" />
+155-->[com.google.firebase:firebase-common:20.2.0] C:\Users\pc\.gradle\caches\transforms-3\b3c2951d6a49ce897db179826e3358fe\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:30:13-36
+156
+157        <meta-data
+157-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\pc\.gradle\caches\transforms-3\8494cb4ae7ed32aa9a2851734357f017\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+158            android:name="com.google.android.gms.version"
+158-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\pc\.gradle\caches\transforms-3\8494cb4ae7ed32aa9a2851734357f017\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+159            android:value="@integer/google_play_services_version" />
+159-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\pc\.gradle\caches\transforms-3\8494cb4ae7ed32aa9a2851734357f017\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+160
+161        <provider
+161-->[androidx.emoji2:emoji2:1.2.0] C:\Users\pc\.gradle\caches\transforms-3\0f0a9640a26a9a1e52b114b43e9fc451\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+162            android:name="androidx.startup.InitializationProvider"
+162-->[androidx.emoji2:emoji2:1.2.0] C:\Users\pc\.gradle\caches\transforms-3\0f0a9640a26a9a1e52b114b43e9fc451\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+163            android:authorities="com.ntd.appid1.appid2.appid3.dev.androidx-startup"
+163-->[androidx.emoji2:emoji2:1.2.0] C:\Users\pc\.gradle\caches\transforms-3\0f0a9640a26a9a1e52b114b43e9fc451\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+164            android:exported="false" >
+164-->[androidx.emoji2:emoji2:1.2.0] C:\Users\pc\.gradle\caches\transforms-3\0f0a9640a26a9a1e52b114b43e9fc451\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+165            <meta-data
+165-->[androidx.emoji2:emoji2:1.2.0] C:\Users\pc\.gradle\caches\transforms-3\0f0a9640a26a9a1e52b114b43e9fc451\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+166                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+166-->[androidx.emoji2:emoji2:1.2.0] C:\Users\pc\.gradle\caches\transforms-3\0f0a9640a26a9a1e52b114b43e9fc451\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+167                android:value="androidx.startup" />
+167-->[androidx.emoji2:emoji2:1.2.0] C:\Users\pc\.gradle\caches\transforms-3\0f0a9640a26a9a1e52b114b43e9fc451\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+168            <meta-data
+168-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\pc\.gradle\caches\transforms-3\8bd353b35760543b40b2fa01c384ce3c\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+169                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+169-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\pc\.gradle\caches\transforms-3\8bd353b35760543b40b2fa01c384ce3c\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+170                android:value="androidx.startup" />
+170-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\pc\.gradle\caches\transforms-3\8bd353b35760543b40b2fa01c384ce3c\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+171        </provider>
+172
+173        <service
+173-->[androidx.room:room-runtime:2.5.2] C:\Users\pc\.gradle\caches\transforms-3\7e676f1c11d7f9c9b862ceee7cd88fa5\transformed\room-runtime-2.5.2\AndroidManifest.xml:24:9-28:63
+174            android:name="androidx.room.MultiInstanceInvalidationService"
+174-->[androidx.room:room-runtime:2.5.2] C:\Users\pc\.gradle\caches\transforms-3\7e676f1c11d7f9c9b862ceee7cd88fa5\transformed\room-runtime-2.5.2\AndroidManifest.xml:25:13-74
+175            android:directBootAware="true"
+175-->[androidx.room:room-runtime:2.5.2] C:\Users\pc\.gradle\caches\transforms-3\7e676f1c11d7f9c9b862ceee7cd88fa5\transformed\room-runtime-2.5.2\AndroidManifest.xml:26:13-43
+176            android:exported="false" />
+176-->[androidx.room:room-runtime:2.5.2] C:\Users\pc\.gradle\caches\transforms-3\7e676f1c11d7f9c9b862ceee7cd88fa5\transformed\room-runtime-2.5.2\AndroidManifest.xml:27:13-37
+177
+178        <activity
+178-->[androidx.test:core:1.5.0] C:\Users\pc\.gradle\caches\transforms-3\c92d25b92957a896b6ffac2fd1f8cdd5\transformed\jetified-core-1.5.0\AndroidManifest.xml:27:9-34:20
+179            android:name="androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity"
+179-->[androidx.test:core:1.5.0] C:\Users\pc\.gradle\caches\transforms-3\c92d25b92957a896b6ffac2fd1f8cdd5\transformed\jetified-core-1.5.0\AndroidManifest.xml:28:13-99
+180            android:exported="true"
+180-->[androidx.test:core:1.5.0] C:\Users\pc\.gradle\caches\transforms-3\c92d25b92957a896b6ffac2fd1f8cdd5\transformed\jetified-core-1.5.0\AndroidManifest.xml:29:13-36
+181            android:theme="@style/WhiteBackgroundTheme" >
+181-->[androidx.test:core:1.5.0] C:\Users\pc\.gradle\caches\transforms-3\c92d25b92957a896b6ffac2fd1f8cdd5\transformed\jetified-core-1.5.0\AndroidManifest.xml:30:13-56
+182            <intent-filter android:priority="-100" >
+182-->[androidx.test:core:1.5.0] C:\Users\pc\.gradle\caches\transforms-3\c92d25b92957a896b6ffac2fd1f8cdd5\transformed\jetified-core-1.5.0\AndroidManifest.xml:31:13-33:29
+182-->[androidx.test:core:1.5.0] C:\Users\pc\.gradle\caches\transforms-3\c92d25b92957a896b6ffac2fd1f8cdd5\transformed\jetified-core-1.5.0\AndroidManifest.xml:31:28-51
+183                <category android:name="android.intent.category.LAUNCHER" />
+183-->C:\Users\pc\AndroidStudioProjects\appxx_piano\app\src\main\AndroidManifest.xml:81:17-77
+183-->C:\Users\pc\AndroidStudioProjects\appxx_piano\app\src\main\AndroidManifest.xml:81:27-74
+184            </intent-filter>
+185        </activity>
+186        <activity
+186-->[androidx.test:core:1.5.0] C:\Users\pc\.gradle\caches\transforms-3\c92d25b92957a896b6ffac2fd1f8cdd5\transformed\jetified-core-1.5.0\AndroidManifest.xml:35:9-42:20
+187            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity"
+187-->[androidx.test:core:1.5.0] C:\Users\pc\.gradle\caches\transforms-3\c92d25b92957a896b6ffac2fd1f8cdd5\transformed\jetified-core-1.5.0\AndroidManifest.xml:36:13-95
+188            android:exported="true"
+188-->[androidx.test:core:1.5.0] C:\Users\pc\.gradle\caches\transforms-3\c92d25b92957a896b6ffac2fd1f8cdd5\transformed\jetified-core-1.5.0\AndroidManifest.xml:37:13-36
+189            android:theme="@style/WhiteBackgroundTheme" >
+189-->[androidx.test:core:1.5.0] C:\Users\pc\.gradle\caches\transforms-3\c92d25b92957a896b6ffac2fd1f8cdd5\transformed\jetified-core-1.5.0\AndroidManifest.xml:38:13-56
+190            <intent-filter android:priority="-100" >
+190-->[androidx.test:core:1.5.0] C:\Users\pc\.gradle\caches\transforms-3\c92d25b92957a896b6ffac2fd1f8cdd5\transformed\jetified-core-1.5.0\AndroidManifest.xml:31:13-33:29
+190-->[androidx.test:core:1.5.0] C:\Users\pc\.gradle\caches\transforms-3\c92d25b92957a896b6ffac2fd1f8cdd5\transformed\jetified-core-1.5.0\AndroidManifest.xml:31:28-51
+191                <category android:name="android.intent.category.LAUNCHER" />
+191-->C:\Users\pc\AndroidStudioProjects\appxx_piano\app\src\main\AndroidManifest.xml:81:17-77
+191-->C:\Users\pc\AndroidStudioProjects\appxx_piano\app\src\main\AndroidManifest.xml:81:27-74
+192            </intent-filter>
+193        </activity>
+194        <activity
+194-->[androidx.test:core:1.5.0] C:\Users\pc\.gradle\caches\transforms-3\c92d25b92957a896b6ffac2fd1f8cdd5\transformed\jetified-core-1.5.0\AndroidManifest.xml:43:9-50:20
+195            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity"
+195-->[androidx.test:core:1.5.0] C:\Users\pc\.gradle\caches\transforms-3\c92d25b92957a896b6ffac2fd1f8cdd5\transformed\jetified-core-1.5.0\AndroidManifest.xml:44:13-103
+196            android:exported="true"
+196-->[androidx.test:core:1.5.0] C:\Users\pc\.gradle\caches\transforms-3\c92d25b92957a896b6ffac2fd1f8cdd5\transformed\jetified-core-1.5.0\AndroidManifest.xml:45:13-36
+197            android:theme="@style/WhiteBackgroundDialogTheme" >
+197-->[androidx.test:core:1.5.0] C:\Users\pc\.gradle\caches\transforms-3\c92d25b92957a896b6ffac2fd1f8cdd5\transformed\jetified-core-1.5.0\AndroidManifest.xml:46:13-62
+198            <intent-filter android:priority="-100" >
+198-->[androidx.test:core:1.5.0] C:\Users\pc\.gradle\caches\transforms-3\c92d25b92957a896b6ffac2fd1f8cdd5\transformed\jetified-core-1.5.0\AndroidManifest.xml:31:13-33:29
+198-->[androidx.test:core:1.5.0] C:\Users\pc\.gradle\caches\transforms-3\c92d25b92957a896b6ffac2fd1f8cdd5\transformed\jetified-core-1.5.0\AndroidManifest.xml:31:28-51
+199                <category android:name="android.intent.category.LAUNCHER" />
+199-->C:\Users\pc\AndroidStudioProjects\appxx_piano\app\src\main\AndroidManifest.xml:81:17-77
+199-->C:\Users\pc\AndroidStudioProjects\appxx_piano\app\src\main\AndroidManifest.xml:81:27-74
+200            </intent-filter>
+201        </activity> <!-- The activities will be merged into the manifest of the hosting app. -->
+202        <activity
+202-->[com.google.android.play:core:1.10.3] C:\Users\pc\.gradle\caches\transforms-3\f1474d72d67c813ff9ba38e4c8e4f4be\transformed\jetified-core-1.10.3\AndroidManifest.xml:18:9-24:45
+203            android:name="com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity"
+203-->[com.google.android.play:core:1.10.3] C:\Users\pc\.gradle\caches\transforms-3\f1474d72d67c813ff9ba38e4c8e4f4be\transformed\jetified-core-1.10.3\AndroidManifest.xml:19:13-100
+204            android:enabled="false"
+204-->[com.google.android.play:core:1.10.3] C:\Users\pc\.gradle\caches\transforms-3\f1474d72d67c813ff9ba38e4c8e4f4be\transformed\jetified-core-1.10.3\AndroidManifest.xml:20:13-36
+205            android:exported="false"
+205-->[com.google.android.play:core:1.10.3] C:\Users\pc\.gradle\caches\transforms-3\f1474d72d67c813ff9ba38e4c8e4f4be\transformed\jetified-core-1.10.3\AndroidManifest.xml:21:13-37
+206            android:launchMode="singleInstance"
+206-->[com.google.android.play:core:1.10.3] C:\Users\pc\.gradle\caches\transforms-3\f1474d72d67c813ff9ba38e4c8e4f4be\transformed\jetified-core-1.10.3\AndroidManifest.xml:22:13-48
+207            android:process=":playcore_missing_splits_activity"
+207-->[com.google.android.play:core:1.10.3] C:\Users\pc\.gradle\caches\transforms-3\f1474d72d67c813ff9ba38e4c8e4f4be\transformed\jetified-core-1.10.3\AndroidManifest.xml:23:13-64
+208            android:stateNotNeeded="true" />
+208-->[com.google.android.play:core:1.10.3] C:\Users\pc\.gradle\caches\transforms-3\f1474d72d67c813ff9ba38e4c8e4f4be\transformed\jetified-core-1.10.3\AndroidManifest.xml:24:13-42
+209        <activity
+209-->[com.google.android.play:core:1.10.3] C:\Users\pc\.gradle\caches\transforms-3\f1474d72d67c813ff9ba38e4c8e4f4be\transformed\jetified-core-1.10.3\AndroidManifest.xml:25:9-29:65
+210            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+210-->[com.google.android.play:core:1.10.3] C:\Users\pc\.gradle\caches\transforms-3\f1474d72d67c813ff9ba38e4c8e4f4be\transformed\jetified-core-1.10.3\AndroidManifest.xml:26:13-93
+211            android:exported="false"
+211-->[com.google.android.play:core:1.10.3] C:\Users\pc\.gradle\caches\transforms-3\f1474d72d67c813ff9ba38e4c8e4f4be\transformed\jetified-core-1.10.3\AndroidManifest.xml:27:13-37
+212            android:stateNotNeeded="true"
+212-->[com.google.android.play:core:1.10.3] C:\Users\pc\.gradle\caches\transforms-3\f1474d72d67c813ff9ba38e4c8e4f4be\transformed\jetified-core-1.10.3\AndroidManifest.xml:28:13-42
+213            android:theme="@style/Theme.PlayCore.Transparent" /> <!-- The services will be merged into the manifest of the hosting app. -->
+213-->[com.google.android.play:core:1.10.3] C:\Users\pc\.gradle\caches\transforms-3\f1474d72d67c813ff9ba38e4c8e4f4be\transformed\jetified-core-1.10.3\AndroidManifest.xml:29:13-62
+214        <service
+214-->[com.google.android.play:core:1.10.3] C:\Users\pc\.gradle\caches\transforms-3\f1474d72d67c813ff9ba38e4c8e4f4be\transformed\jetified-core-1.10.3\AndroidManifest.xml:32:9-39:19
+215            android:name="com.google.android.play.core.assetpacks.AssetPackExtractionService"
+215-->[com.google.android.play:core:1.10.3] C:\Users\pc\.gradle\caches\transforms-3\f1474d72d67c813ff9ba38e4c8e4f4be\transformed\jetified-core-1.10.3\AndroidManifest.xml:33:13-94
+216            android:enabled="false"
+216-->[com.google.android.play:core:1.10.3] C:\Users\pc\.gradle\caches\transforms-3\f1474d72d67c813ff9ba38e4c8e4f4be\transformed\jetified-core-1.10.3\AndroidManifest.xml:34:13-36
+217            android:exported="true" >
+217-->[com.google.android.play:core:1.10.3] C:\Users\pc\.gradle\caches\transforms-3\f1474d72d67c813ff9ba38e4c8e4f4be\transformed\jetified-core-1.10.3\AndroidManifest.xml:35:13-36
+218            <meta-data
+218-->[com.google.android.play:core:1.10.3] C:\Users\pc\.gradle\caches\transforms-3\f1474d72d67c813ff9ba38e4c8e4f4be\transformed\jetified-core-1.10.3\AndroidManifest.xml:36:13-38:41
+219                android:name="com.google.android.play.core.assetpacks.versionCode"
+219-->[com.google.android.play:core:1.10.3] C:\Users\pc\.gradle\caches\transforms-3\f1474d72d67c813ff9ba38e4c8e4f4be\transformed\jetified-core-1.10.3\AndroidManifest.xml:37:17-83
+220                android:value="11003" />
+220-->[com.google.android.play:core:1.10.3] C:\Users\pc\.gradle\caches\transforms-3\f1474d72d67c813ff9ba38e4c8e4f4be\transformed\jetified-core-1.10.3\AndroidManifest.xml:38:17-38
+221        </service>
+222        <service
+222-->[com.google.android.play:core:1.10.3] C:\Users\pc\.gradle\caches\transforms-3\f1474d72d67c813ff9ba38e4c8e4f4be\transformed\jetified-core-1.10.3\AndroidManifest.xml:40:9-43:40
+223            android:name="com.google.android.play.core.assetpacks.ExtractionForegroundService"
+223-->[com.google.android.play:core:1.10.3] C:\Users\pc\.gradle\caches\transforms-3\f1474d72d67c813ff9ba38e4c8e4f4be\transformed\jetified-core-1.10.3\AndroidManifest.xml:41:13-95
+224            android:enabled="false"
+224-->[com.google.android.play:core:1.10.3] C:\Users\pc\.gradle\caches\transforms-3\f1474d72d67c813ff9ba38e4c8e4f4be\transformed\jetified-core-1.10.3\AndroidManifest.xml:42:13-36
+225            android:exported="false" />
+225-->[com.google.android.play:core:1.10.3] C:\Users\pc\.gradle\caches\transforms-3\f1474d72d67c813ff9ba38e4c8e4f4be\transformed\jetified-core-1.10.3\AndroidManifest.xml:43:13-37
+226    </application>
+227
+228</manifest>

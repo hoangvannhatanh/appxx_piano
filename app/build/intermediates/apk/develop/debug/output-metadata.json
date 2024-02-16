@@ -1,0 +1,20 @@
+{
+  "version": 3,
+  "artifactType": {
+    "type": "APK",
+    "kind": "Directory"
+  },
+  "applicationId": "com.ntd.appid1.appid2.appid3.dev",
+  "variantName": "developDebug",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "attributes": [],
+      "versionCode": 100,
+      "versionName": "1.0.0",
+      "outputFile": "AppXX_LearnPiano_v1.0.0_v100_02.16.2024-develop-debug.apk"
+    }
+  ],
+  "elementType": "File"
+}

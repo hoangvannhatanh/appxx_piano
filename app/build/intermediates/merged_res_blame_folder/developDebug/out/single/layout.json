@@ -1,0 +1,150 @@
+[
+    {
+        "merged": "com.ntd.appid1.appid2.appid3.app-mergeDevelopDebugResources-53:/layout/dialog_delete_record.xml",
+        "source": "com.ntd.appid1.appid2.appid3.app-main-58:/layout/dialog_delete_record.xml"
+    },
+    {
+        "merged": "com.ntd.appid1.appid2.appid3.app-mergeDevelopDebugResources-53:/layout/activity_permission.xml",
+        "source": "com.ntd.appid1.appid2.appid3.app-main-58:/layout/activity_permission.xml"
+    },
+    {
+        "merged": "com.ntd.appid1.appid2.appid3.app-mergeDevelopDebugResources-53:/layout/activity_saxophone.xml",
+        "source": "com.ntd.appid1.appid2.appid3.app-main-58:/layout/activity_saxophone.xml"
+    },
+    {
+        "merged": "com.ntd.appid1.appid2.appid3.app-mergeDevelopDebugResources-53:/layout/item_language.xml",
+        "source": "com.ntd.appid1.appid2.appid3.app-main-58:/layout/item_language.xml"
+    },
+    {
+        "merged": "com.ntd.appid1.appid2.appid3.app-mergeDevelopDebugResources-53:/layout/activity_piano.xml",
+        "source": "com.ntd.appid1.appid2.appid3.app-main-58:/layout/activity_piano.xml"
+    },
+    {
+        "merged": "com.ntd.appid1.appid2.appid3.app-mergeDevelopDebugResources-53:/layout/layout_item_piano_style.xml",
+        "source": "com.ntd.appid1.appid2.appid3.app-main-58:/layout/layout_item_piano_style.xml"
+    },
+    {
+        "merged": "com.ntd.appid1.appid2.appid3.app-mergeDevelopDebugResources-53:/layout/item_howto.xml",
+        "source": "com.ntd.appid1.appid2.appid3.app-main-58:/layout/item_howto.xml"
+    },
+    {
+        "merged": "com.ntd.appid1.appid2.appid3.app-mergeDevelopDebugResources-53:/layout/fragment_drum2.xml",
+        "source": "com.ntd.appid1.appid2.appid3.app-main-58:/layout/fragment_drum2.xml"
+    },
+    {
+        "merged": "com.ntd.appid1.appid2.appid3.app-mergeDevelopDebugResources-53:/layout/dialog_song_list.xml",
+        "source": "com.ntd.appid1.appid2.appid3.app-main-58:/layout/dialog_song_list.xml"
+    },
+    {
+        "merged": "com.ntd.appid1.appid2.appid3.app-mergeDevelopDebugResources-53:/layout/activity_style_drum.xml",
+        "source": "com.ntd.appid1.appid2.appid3.app-main-58:/layout/activity_style_drum.xml"
+    },
+    {
+        "merged": "com.ntd.appid1.appid2.appid3.app-mergeDevelopDebugResources-53:/layout/item_button_guitar.xml",
+        "source": "com.ntd.appid1.appid2.appid3.app-main-58:/layout/item_button_guitar.xml"
+    },
+    {
+        "merged": "com.ntd.appid1.appid2.appid3.app-mergeDevelopDebugResources-53:/layout/dialog_rating_app.xml",
+        "source": "com.ntd.appid1.appid2.appid3.app-main-58:/layout/dialog_rating_app.xml"
+    },
+    {
+        "merged": "com.ntd.appid1.appid2.appid3.app-mergeDevelopDebugResources-53:/layout/fragment_home.xml",
+        "source": "com.ntd.appid1.appid2.appid3.app-main-58:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.ntd.appid1.appid2.appid3.app-mergeDevelopDebugResources-53:/layout/fragment_record.xml",
+        "source": "com.ntd.appid1.appid2.appid3.app-main-58:/layout/fragment_record.xml"
+    },
+    {
+        "merged": "com.ntd.appid1.appid2.appid3.app-mergeDevelopDebugResources-53:/layout/dialog_change_name.xml",
+        "source": "com.ntd.appid1.appid2.appid3.app-main-58:/layout/dialog_change_name.xml"
+    },
+    {
+        "merged": "com.ntd.appid1.appid2.appid3.app-mergeDevelopDebugResources-53:/layout/activity_drume.xml",
+        "source": "com.ntd.appid1.appid2.appid3.app-main-58:/layout/activity_drume.xml"
+    },
+    {
+        "merged": "com.ntd.appid1.appid2.appid3.app-mergeDevelopDebugResources-53:/layout/dialog_piano_setting.xml",
+        "source": "com.ntd.appid1.appid2.appid3.app-main-58:/layout/dialog_piano_setting.xml"
+    },
+    {
+        "merged": "com.ntd.appid1.appid2.appid3.app-mergeDevelopDebugResources-53:/layout/fragment_setting.xml",
+        "source": "com.ntd.appid1.appid2.appid3.app-main-58:/layout/fragment_setting.xml"
+    },
+    {
+        "merged": "com.ntd.appid1.appid2.appid3.app-mergeDevelopDebugResources-53:/layout/item_intro.xml",
+        "source": "com.ntd.appid1.appid2.appid3.app-main-58:/layout/item_intro.xml"
+    },
+    {
+        "merged": "com.ntd.appid1.appid2.appid3.app-mergeDevelopDebugResources-53:/layout/item_style_drum.xml",
+        "source": "com.ntd.appid1.appid2.appid3.app-main-58:/layout/item_style_drum.xml"
+    },
+    {
+        "merged": "com.ntd.appid1.appid2.appid3.app-mergeDevelopDebugResources-53:/layout/fragment_drum1.xml",
+        "source": "com.ntd.appid1.appid2.appid3.app-main-58:/layout/fragment_drum1.xml"
+    },
+    {
+        "merged": "com.ntd.appid1.appid2.appid3.app-mergeDevelopDebugResources-53:/layout/activity_intro.xml",
+        "source": "com.ntd.appid1.appid2.appid3.app-main-58:/layout/activity_intro.xml"
+    },
+    {
+        "merged": "com.ntd.appid1.appid2.appid3.app-mergeDevelopDebugResources-53:/layout/language_activity.xml",
+        "source": "com.ntd.appid1.appid2.appid3.app-main-58:/layout/language_activity.xml"
+    },
+    {
+        "merged": "com.ntd.appid1.appid2.appid3.app-mergeDevelopDebugResources-53:/layout/activity_ntdview_piano_style.xml",
+        "source": "com.ntd.appid1.appid2.appid3.app-main-58:/layout/activity_ntdview_piano_style.xml"
+    },
+    {
+        "merged": "com.ntd.appid1.appid2.appid3.app-mergeDevelopDebugResources-53:/layout/activity_main.xml",
+        "source": "com.ntd.appid1.appid2.appid3.app-main-58:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.ntd.appid1.appid2.appid3.app-mergeDevelopDebugResources-53:/layout/item_record.xml",
+        "source": "com.ntd.appid1.appid2.appid3.app-main-58:/layout/item_record.xml"
+    },
+    {
+        "merged": "com.ntd.appid1.appid2.appid3.app-mergeDevelopDebugResources-53:/layout/dialog_record_saved.xml",
+        "source": "com.ntd.appid1.appid2.appid3.app-main-58:/layout/dialog_record_saved.xml"
+    },
+    {
+        "merged": "com.ntd.appid1.appid2.appid3.app-mergeDevelopDebugResources-53:/layout/dialog_save_record.xml",
+        "source": "com.ntd.appid1.appid2.appid3.app-main-58:/layout/dialog_save_record.xml"
+    },
+    {
+        "merged": "com.ntd.appid1.appid2.appid3.app-mergeDevelopDebugResources-53:/layout/layout_item_song_playlist.xml",
+        "source": "com.ntd.appid1.appid2.appid3.app-main-58:/layout/layout_item_song_playlist.xml"
+    },
+    {
+        "merged": "com.ntd.appid1.appid2.appid3.app-mergeDevelopDebugResources-53:/layout/layout_bottom_menu.xml",
+        "source": "com.ntd.appid1.appid2.appid3.app-main-58:/layout/layout_bottom_menu.xml"
+    },
+    {
+        "merged": "com.ntd.appid1.appid2.appid3.app-mergeDevelopDebugResources-53:/layout/activity_piano_two_player.xml",
+        "source": "com.ntd.appid1.appid2.appid3.app-main-58:/layout/activity_piano_two_player.xml"
+    },
+    {
+        "merged": "com.ntd.appid1.appid2.appid3.app-mergeDevelopDebugResources-53:/layout/activity_policy.xml",
+        "source": "com.ntd.appid1.appid2.appid3.app-main-58:/layout/activity_policy.xml"
+    },
+    {
+        "merged": "com.ntd.appid1.appid2.appid3.app-mergeDevelopDebugResources-53:/layout/activity_record_detail.xml",
+        "source": "com.ntd.appid1.appid2.appid3.app-main-58:/layout/activity_record_detail.xml"
+    },
+    {
+        "merged": "com.ntd.appid1.appid2.appid3.app-mergeDevelopDebugResources-53:/layout/activity_double_key.xml",
+        "source": "com.ntd.appid1.appid2.appid3.app-main-58:/layout/activity_double_key.xml"
+    },
+    {
+        "merged": "com.ntd.appid1.appid2.appid3.app-mergeDevelopDebugResources-53:/layout/activity_splash.xml",
+        "source": "com.ntd.appid1.appid2.appid3.app-main-58:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "com.ntd.appid1.appid2.appid3.app-mergeDevelopDebugResources-53:/layout/activity_howto.xml",
+        "source": "com.ntd.appid1.appid2.appid3.app-main-58:/layout/activity_howto.xml"
+    },
+    {
+        "merged": "com.ntd.appid1.appid2.appid3.app-mergeDevelopDebugResources-53:/layout/activity_guitar.xml",
+        "source": "com.ntd.appid1.appid2.appid3.app-main-58:/layout/activity_guitar.xml"
+    }
+]

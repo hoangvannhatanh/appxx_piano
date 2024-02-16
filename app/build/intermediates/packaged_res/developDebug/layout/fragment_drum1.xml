@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                        
+
+    
+
+           
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_drum1_style" android:tag="layout/fragment_drum1_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toBottomOf="parent">
+
+            <ImageView
+                android:id="@+id/imgKickCenter"
+                android:layout_width="@dimen/_200sdp"
+                android:layout_height="@dimen/_255sdp"
+                android:src="@drawable/img_kick_center"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <ImageView
+                android:id="@+id/imgKickBottomRight"
+                android:layout_width="@dimen/_160sdp"
+                android:layout_height="@dimen/_140sdp"
+                android:layout_marginStart="@dimen/_140sdp"
+                android:layout_marginTop="@dimen/_21sdp"
+                android:layout_marginEnd="@dimen/_120sdp"
+                android:src="@drawable/img_kick_bottom_right"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/imgKickCenter" />
+
+            <ImageView
+                android:id="@+id/imgKickBottomLeft"
+                android:layout_width="@dimen/_140sdp"
+                android:layout_height="@dimen/_105sdp"
+                android:layout_marginStart="@dimen/_21sdp"
+                android:layout_marginEnd="@dimen/_145sdp"
+                android:src="@drawable/img_kick_bottom_left"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/imgKickCenter" />
+
+            <ImageView
+                android:id="@+id/imgDrumSmall"
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="@dimen/_95sdp"
+                android:layout_marginTop="@dimen/_12sdp"
+                android:layout_marginEnd="@dimen/_65sdp"
+                android:layout_marginBottom="@dimen/_70sdp"
+                android:src="@drawable/image_drum_big"
+                app:layout_constraintBottom_toBottomOf="@+id/imgKickBottomLeft"
+                app:layout_constraintEnd_toEndOf="@+id/imgKickBottomLeft" />
+
+            <ImageView
+                android:id="@+id/imgKickTopLeft"
+                android:layout_width="@dimen/_110sdp"
+                android:layout_height="@dimen/_125sdp"
+                android:layout_marginStart="@dimen/_110sdp"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:src="@drawable/img_kick_top_left"
+                app:layout_constraintStart_toStartOf="@+id/imgDrumBigLeft"
+                app:layout_constraintTop_toTopOf="@+id/imgDrumBigLeft" />
+
+            <ImageView
+                android:id="@+id/imgKickTopRight"
+                android:layout_width="@dimen/_120sdp"
+                android:layout_height="@dimen/_128sdp"
+                android:layout_marginStart="@dimen/_100sdp"
+                android:src="@drawable/img_kick_top_right"
+                app:layout_constraintStart_toStartOf="@+id/imgKickTopLeft"
+                app:layout_constraintTop_toTopOf="@+id/imgKickTopLeft" />
+
+
+            <ImageView
+                android:id="@+id/imgDrumBigLeft"
+                android:layout_width="@dimen/_122sdp"
+                android:layout_height="@dimen/_80sdp"
+                android:layout_marginStart="-11dp"
+                android:src="@drawable/image_drum_big"
+                app:layout_constraintBottom_toTopOf="@+id/imgDrumSmall"
+                app:layout_constraintStart_toStartOf="@+id/imgDrumSmall" />
+
+            <ImageView
+                android:id="@+id/imgDrumBigRight"
+                android:layout_width="@dimen/_170sdp"
+                android:layout_height="@dimen/_90sdp"
+                android:layout_marginStart="@dimen/_70sdp"
+                android:layout_marginBottom="@dimen/_40sdp"
+                android:src="@drawable/image_drum_big"
+                app:layout_constraintBottom_toBottomOf="@+id/imgKickTopRight"
+                app:layout_constraintStart_toStartOf="@+id/imgKickTopRight" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+         
