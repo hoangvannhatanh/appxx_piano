@@ -46,7 +46,7 @@
     <string name="version">Version</string>
     <string name="do_you_like_learn_piano">Do you like Learn Piano?</string>
     <string name="content_rate">Give us a quick rating so we know if you like it?</string>
-    <string name="rate_us">Rate us</string>
+    <string name="rate_us">Rate Us</string>
     <string name="no_later">No Later</string>
     <string name="title_intro_1">Realistic Piano Experience</string>
     <string name="content_intro_1">Immerse yourself in the authentic sound and feel of a grand piano</string>
@@ -78,4 +78,6 @@
     <string name="press_the_button_on_saxophone_to_start_you_can_record_videos_and_change_themes">"Press the button on saxophone to start. You can record videos and change themes. "</string>
 
     <string name="edit">Edit</string>
+    <string name="done">Done</string>
+    <string name="your_feedback_is_very">Your feedback is very helpful to us!</string>
 </resources>
